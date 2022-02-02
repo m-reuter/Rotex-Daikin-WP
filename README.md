@@ -18,6 +18,7 @@ Geplanter Inhalt:
 Links:
 - https://fachportal.rotex-heating.com/technische-unterlagen/archiv/rotex-hpsu-compact-ultra.html
 - https://www.haustechnikdialog.de/Forum/t/226662/ROTEX-HPSU-compact-Ultra-ab-2018-Erfahrungen-Optimierung
+- https://www.waermepumpen-verbrauchsdatenbank.de
 
 Rechtlicher Hinweis: Informationen auf dieser Seite dienen ausschließlich der Weiterbildung und Dokumentation. Wer Einstellungen an seiner Wärmepumpe ändert ist dafür und für alle Konsequenzen selber verantwortlich. Inhaber, Authoren, Kollaboratoren an dieser Webseite können nicht rechtlich belangt werden. 
 
