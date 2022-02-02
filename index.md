@@ -6,11 +6,10 @@ description: "Rotex-Daikin-WP ist eine Dokumentations-Webseite für HPSU Compact
 permalink: /
 ---
 
-# Lerne deine Wärmepumpe und Heizungsanlage zu verstehen und zu verbessern
+# Lerne deine Wärmepumpe besser kennen
 {: .fs-9 }
 
 Luft-Wasser Wärmepumpen können sehr effizient arbeiten, wenn sie richtig eingestellt sind.
-Das ist leider selten der Fall. Diese Seiten sollen helfen das komplexe Heizungssystem besser 
-zu verstehen und ggf. Anpassungen vorzunehmen um nicht unnötig Strom zu verbrauchen.
+Leider sind sie das selten. Diese Seiten können dir helfen, das zu ändern.
 {: .fs-6 .fw-300 }
  
