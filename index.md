@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Start
 nav_order: 1
 description: "Rotex-Daikin-WP ist eine Dokumentations-Webseite für HPSU Compact Ultra Wärmepumpen Optimierung"
 permalink: /
