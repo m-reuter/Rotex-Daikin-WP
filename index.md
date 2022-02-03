@@ -28,10 +28,10 @@ bestimmt, wobei auch hier die meisten für das ältere Model ohne Zusatz "Ultra"
 
 ### Geplanter Inhalt
 
-- Einführung
+- Heizungssystem
   - Fußbodenheizung
   - Hydraulischer Abgleich
-  - Wärmepumpen Prinzip
+  - Wärmepumpen
 - Einstellungen der HPSU compact (ultra)
 - Smart Home
   - Anbindung und Automatisierung
@@ -47,5 +47,5 @@ bestimmt, wobei auch hier die meisten für das ältere Model ohne Zusatz "Ultra"
 
 ### Haftungsausschluss
 
-Informationen auf dieser Seite dienen ausschließlich der Weiterbildung und Dokumentation. Wer Einstellungen oder Veränderungen an seiner Wärmepumpe ändert ist dafür und für alle Konsequenzen selber verantwortlich. Inhaber, Authoren, Kollaboratoren an dieser Webseite können deshalb nicht rechtlich belangt werden. 
+Informationen auf dieser Seite dienen ausschließlich der Weiterbildung und Dokumentation. Wer Einstellungen oder Veränderungen an seiner Wärmepumpe vornimmt ist dafür und für alle Konsequenzen selbst verantwortlich. Inhaber, Authoren, Kollaboratoren an dieser Webseite können deshalb nicht rechtlich belangt werden. 
 
