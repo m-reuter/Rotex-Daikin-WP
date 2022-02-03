@@ -45,6 +45,12 @@ bestimmt, wobei auch hier die meisten für das ältere Model ohne Zusatz "Ultra"
 - [Verbrauchsdatenbank](https://www.waermepumpen-verbrauchsdatenbank.de)
 
 
+### Hilf mit!
+
+Wir freuen uns sehr über Eure Unterstützung. Bitte hilf mit diese Seiten zu verbessern. 
+Das geht am Besten über ein Issue oder Pull-Request auf [GitHub](https://github.com/m-reuter/Rotex-Daikin-WP).
+Dort befindet sich diese Web-Seite als Open Source Projekt (MIT License). 
+
 ### Haftungsausschluss
 
 Informationen auf dieser Seite dienen ausschließlich der Weiterbildung und Dokumentation. Wer Einstellungen oder Veränderungen an seiner Wärmepumpe vornimmt ist dafür und für alle Konsequenzen selbst verantwortlich. Inhaber, Authoren, Kollaboratoren an dieser Webseite können deshalb nicht rechtlich belangt werden. 

@@ -88,7 +88,7 @@ allerdings dann auch teuer).
 
 ## Gebäudedämmung
 
-Bei Fußbodenheizung einfach auf AUS stellen, da irrelevant (FBH reagiert zu langsam).
+Bei Fußbodenheizung einfach auf **AUS** stellen, da irrelevant (FBH reagiert zu langsam).
 
 ## Flüstermodus
 
@@ -115,6 +115,8 @@ nachts eingesetzt werden. Oder besser, man schaltet nachts ganz ab (mehr unten).
 Die Menüfunktion 1xWW sollte nicht genutzt werden um schnell das WW aufzuheizen. Diese
 Funktion bedient sich leider ausschließlich des Heizstabs. Ist also teuer und bei
 deaktiviertem Heizstab ohne Funktion. 
+
+**Empfehlung: Nicht nutzen**
 
 Besser: Die WW-Bereitung kann angestoßen werden, indem man die WW-Solltemperatur im
 Reglermenü kurz hochstellt (1 grad über Hysterese Differenz). Sobald die Anlage den
