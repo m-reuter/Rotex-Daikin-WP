@@ -15,7 +15,6 @@ Leider sind sie das selten. Diese Seiten können dir helfen, das zu ändern.
  
 ---
 
-## Einleitung
 
 ### Wärmepumpen
 
@@ -40,9 +39,9 @@ Geplanter Inhalt:
 
 ### Links
 
-- https://fachportal.rotex-heating.com/technische-unterlagen/archiv/rotex-hpsu-compact-ultra.html
-- https://www.haustechnikdialog.de/Forum/t/226662/ROTEX-HPSU-compact-Ultra-ab-2018-Erfahrungen-Optimierung
-- https://www.waermepumpen-verbrauchsdatenbank.de
+- [Rotex Technische Unterlagen](https://fachportal.rotex-heating.com/technische-unterlagen/archiv/rotex-hpsu-compact-ultra.html)
+- [Haustechnik Forum HPSU compact ultra](https://www.haustechnikdialog.de/Forum/t/226662/ROTEX-HPSU-compact-Ultra-ab-2018-Erfahrungen-Optimierung)
+- [Verbrauchsdatenbank](https://www.waermepumpen-verbrauchsdatenbank.de)
 
 
 ### Haftungsausschluss
