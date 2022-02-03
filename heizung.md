@@ -40,13 +40,13 @@ es für die Wärmepumpe Gift, wenn ständig irgendwo Ventile auf und zu gehen. V
 permanent hin und her, andere bleiben ganz aus. Meist heizen dadurch die Nachbarräume mit, was sehr ineffizient ist. 
 
 Es sollte unbedingt darauf geachtet werden, dass mindestens 2/3 aller Ventile (also ERR) immer 
-geöffnet sind. Dazu kann man die ERR auf maximum stellen, oder die automatischen Regler von
+geöffnet sind. Dazu kann man die ERR auf Maximum stellen, oder die automatischen Regler von
 den Heizkreisventilen abziehen. Einzelne Räume wie z.B. Keller oder Schlafzimmer, kann man
 weiterhin über ERR regeln (solange das nicht mehr als 1/3 der Fläche ausmacht).
 
 ### Hydraulischer und Thermischer Abgleich
 
-Ein modernes System regelt sich selbst, damit das gut funktioniert ist ein **Hydraulischer Abgleich**
+Ein modernes System regelt sich selbst. Damit das gut funktioniert ist ein **Hydraulischer Abgleich**
 wichtig, den der Heizungstechniker (normalerweise) machen sollte. Dabei wird abhängig von der
 beheizten Fläche und Heizkreislänge der Durchfluss am Ventil im Verteilerschrank angepasst. 
 Dies wird allerdings häufig vergessen. 

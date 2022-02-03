@@ -104,7 +104,7 @@ Wärme aus dem Warmwassertank entnehmen kann. Diese Einstellung ist ggf. sinnvol
 der Speicher aus Solarthermie zusätzliche Energie bekommt 
 (und selbst da gehen die Meinungen auseinander).
  
-**Empfehlung: Daher sollte die HZU ausgeschaltet werden: AUS** 
+**Empfehlung: HZU: AUS** 
 
 Ein zusätzliches Problem mit „Heizungsunterstützung EIN“ gibt es in Verbindung mit
 Sperrzeiten fürs Warmwasser. Die Steuerung realisiert die Sperrzeit durch Absenkung der
@@ -127,7 +127,7 @@ man die 10-20min Pause beim Abtauen gar nicht merken. Ggf. ist diese Funktion f�
 Heizkörper und fehlender Dämmung im Haus sinnvoll (z.B. bei Vorlauftemperaturen > 35°C, 
 allerdings dann auch teuer).
 
-**Empfehlung: Bei FBH im Neubau sollte Continuous Heating ausgeschaltet werden: AUS** 
+**Empfehlung: Continuous Heating: AUS** 
 
 ## Bivalenztemperatur
 
@@ -159,7 +159,7 @@ weiterlaufen lassen, evtl. bei abgesenktem Raum-Soll.
 
 ## Gebäudedämmung
 
-Bei Fußbodenheizung einfach auf **AUS** oder **Gering* stellen, damit die Heizung 
+Bei Fußbodenheizung einfach auf **AUS** oder **Gering** stellen, damit die Heizung 
 auf veränderte Aussentemperaturen besser reagieren kann. 
 
 ## Flüstermodus
@@ -263,8 +263,8 @@ auf AUS ist! Genau umgekehrt als in der Betriebsanleitung. Wer das nicht weiß
 die Zirkulation auch in der Nacht durchlaufen, egal welches Zeitprogramm bei der 
 Zirkulation eingestellt ist. 
 
-**Empfehlung: Zirkulationspumpe Ansteuerung: AUS und dann im Zirkulationsprogramm 1-2
-Zeiträume wählen**
+**Empfehlung: Zirkulationspumpe Ansteuerung: AUS und dann im Zirkulationsprogramm 1-3
+kurze Zeiträume wählen**
 
 
 ## Nachtabschaltung
