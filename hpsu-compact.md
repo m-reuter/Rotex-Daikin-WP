@@ -29,14 +29,34 @@ Im Folgenden erklären und diskutieren wir die Einstellungen.
 
 ## Raumsoll und Heizkurve
 
-Raumsoll und Heizkurve sind bei witterungsgeführter Heizung (empfohlen!) die beiden
+Die Heizung sollte im Witterungsgeführten Betrieb laufen, damit sich die Heizleistung 
+der Außentemperatur anpassen kann!
+
+Raumsoll und Heizkurve sind bei witterungsgeführter Heizung die beiden
 wichtigsten Parameter um sowohl die Wärme im Haus als auch den Verbrauch zu regulieren. 
 Dabei ist es wichtig, dass zuvor die Fußbodenheizung richtig eingestellt wurde und 
 die Einzelraumregler alle (mind. 2/3 der Heizkreise) offen sind
 ([siehe Heizung]({{ site.baseurl }}{% link heizung.md %}))!
 
-...
+Der Raumsoll ist nicht genau der Wert, der im Haus sein soll, sondern nur ein Parameter, 
+der die Heizkurve komplett nach oben oder unten verschiebt. Ist es also sowohl in der
+Übergangszeit als auch im Winter zu warm oder zu kalt, muss dieser Parameter entsprechend
+angepasst werden. Meist liegt der Wert so bei 20,5 - 21,5.
 
+Die Heizkurve wird über den "Heizkurve" Parameter gewählt. Diese Einstellung liegt meist
+bei 0,5 oder 0,4 (empfohlen für KfW55). Wenn es z.B. nur im Winter zu kalt ist, sollte 
+eher dieser Paramater erhöht werden, statt mit Raumsoll die ganze Kurve zu verschieben. 
+
+Ein weiterer Wert, die "Vorlauftemperatur Heizbetrieb" ist bei einer witterungsgeführten
+Heizung irrelevant, da dieser Wert ja durch die Heizkurve (in Abhängigkeit von Raumsoll, 
+Heizkurve-Parameter, und Aussentemperatur) berechnet wird und nicht konstant festgelegt wird. 
+
+**Empfehlung:**
+- Einzelraumregler auf
+- Witterungsgeführt
+- Raumsoll 21 (und Verschiebung testen)
+- Heizkurve 0,4 (und auch bei Bedarf anpassen)
+- Vorlauftemperatur Heizbetrieb: egal
 
 
 ## Vorlauftemperatur Min und Max
