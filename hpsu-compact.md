@@ -37,6 +37,28 @@ die Einzelraumregler alle (mind. 2/3 der Heizkreise) offen sind
 
 ...
 
+
+
+## Vorlauftemperatur Min und Max
+
+Die Vorlauftemperatur Min und Max stellt die minimalen und maximalen Vorlauf ein, den die
+Heizung im witterungsgeführten Betrieb annehmen darf. Besonders wichtig bei der Rotex 
+ist hier die Vorlauftemperatur Min! Diese sollte bei genau 25°C liegen. Dadrüber wird
+das Haus im Frühling oder Herbst zu warm, und bei einer Einstellung dadrunter
+funktioniert die WP nicht mehr richtig.
+Nach einem Stopp (z.B. nach WW Aufbereitung) springt die WP nämlich erst dann wieder an,
+wenn die Heizwassertemperatur 3K unter VL-Soll liegt (Reglereigenschaft, nicht veränderbar).
+Wenn in der Übergangszeit die witterungsgeführte Heizkurve z.B. nur 24°C als Sollwert
+berechnet, startet die WP nach einem Stopp erst wieder bei 24°-3°=21°C. Das dauert „ewig“.
+Bis das Heizwasser so weit abgekühlt ist, ist die Raumtemperatur schon ungemütlich kühl. 
+Der Min. Vorlauf von 25°C verhindert das. 
+
+Der Max Vorlauf sollte auf etwas oberhalb des Wertes einstellen, der maximal laut
+Heizkurve erwartet wird, oder z.B. einfach auf 55°C. 
+
+**Empfehlung: Min Vorlauf = 25, Max Vorlauf 55**
+
+
 ## Warmwasser-Soll und Hysterese
 
 Das WW-Soll gibt an auf welche Temperatur das WW aufgeheizt werden soll. Hier ist z.B. 
@@ -86,9 +108,14 @@ allerdings dann auch teuer).
 
 **Empfehlung: Bei FBH im Neubau sollte Continuous Heating ausgeschaltet werden: AUS** 
 
+## Bivalenztemperatur
+
+## Frostschutz
+
 ## Gebäudedämmung
 
-Bei Fußbodenheizung einfach auf **AUS** stellen, da irrelevant (FBH reagiert zu langsam).
+Bei Fußbodenheizung einfach auf **AUS** oder **Gering* stellen, damit die Heizung 
+auf veränderte Aussentemperaturen besser reagieren kann. 
 
 ## Flüstermodus
 
