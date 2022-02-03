@@ -9,7 +9,7 @@ nav_order: 4
 Leider gibt es keine gute und günstige Lösung die Rotex WP in ein Smart-Home System 
 einzubinden. Daikin verkauft für viel Geld den in die Jahre gekommenen RoCon G1 Gateway,
 der sowohl Daten ausliest, als auch Befehle an die WP senden kann. Allerdings über eine
-externe Cloudanbdindung (Internet nötig). 
+externe Cloudanbindung (Internet nötig). 
 
 Es gibt hingegen einige sehr gute Bastellösungen die für wenig Geld mehr können. Dazu 
 sollte man allerdings ein wenig IT Know-How mitbringen. Macht auch mehr Spaß. Eine 
@@ -36,11 +36,31 @@ Erweiterbarkeit. Es existieren auch bereits Erweiterungen die eine Anbindung der
 [ESPAltherma](https://github.com/raomin/ESPAltherma) ist eine Software, die auf einen
 ESP (mini-computer), in diesem Fall z.B. ein M5StickC oder M5StickCplus geladen wird. 
 Der Stick wird an die Rotex WP angeschlossen, und kann dort Daten auslesen (und zwar
-sowohl vom Rotex-Teil Innengerät, sowie DAIKIN Aussengerät). Die Daten werden per 
-MQTT versand und können von einem Smart-Home (z.B. HomeAssistant) mitgeschrieben werden. 
+sowohl vom Rotex-Innengerät, sowie DAIKIN-Aussengerät). Die Daten werden per 
+MQTT versandt und können von einem Smart-Home (z.B. HomeAssistant) mitgeschrieben werden. 
 Befehle können nicht geschickt werden, allerdings kann ein zusätzliches Relais an J16
 angeschlossen werden um ein externes Raumthermostat zu simulieren und die Heizung
 an- und abzuschalten (siehe [externes Raumthermostat]({{ site.baseurl }}{% link hpsu-compact.md %}#externes-raum-thermostat)).
 
+Bei HomeAssistant kann leicht ein MQTT Broker (z.B. Mosquitto) als Add-On installiert werden, 
+der die Daten der ESP empfängt. Für das Setup in HomeAssistant siehe die Dokumentation 
+des ESPAltherma Projekts. 
 
 ## pyHPSU
+
+[pyHPSU](https://github.com/Spanni26/pyHPSU) ist eine Python basierte Software, die 
+mittels des CAN Bus mit der Rotex WP kommuniziert (allerdings nur Daten des Innengeräts
+sehen kann). Mit dieser Software können auch Befehle gesendet werden. 
+Benötigt wird ein CAN-Hat für den Raspberry Pi. Auch gibt es bereits ein Add-On für 
+HomeAssistant [pyhpsu2mqtt](https://github.com/m-reuter/ha-addons). Dies Add-On läßt eine
+Version von pyHPSU laufen, die auch über MQTT kommuniziert und daher leicht in 
+HomeAssistant eingebunden werden kann. 
+
+## vzlogger
+
+[vzlogger](https://wiki.volkszaehler.org/software/controller/vzlogger) ist Teil der 
+Volkszähler Software und erlaubt es über ein Infrarot Adapter moderne Stromzähler
+auszulesen. Dadurch kann der Verbrauch des Hauses oder der Wärmepumpe mitgeschrieben 
+werden. Auch hierzu gibt es ein HomeAssistant Add-On [vzlogger2mqtt](https://github.com/m-reuter/ha-addons)
+das die Installation und Einbindung in HomeAssistant (über MQTT) übernimmt. 
+
