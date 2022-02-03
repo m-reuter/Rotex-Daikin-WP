@@ -59,6 +59,7 @@ sonst nicht mehr anspringt).
 
 ### Continuous Heating
 
+Diese Funktion existiert nur bei dem "Ultra" Model. 
 Bei eingeschaltetem "Continuous Heating" wird während des Abtauens Wäremenergie für die
 Heizung aus dem Speicher entnommen. Die entnommene Wärme muss nachgeheizt werden. Meist
 passiert das mit Heizstab, was nicht energieeffizient ist. Bei Fußbodenheizung wird
@@ -66,4 +67,6 @@ man die 10-20min Pause beim Abtauen gar nicht merken. Ggf. ist diese Funktion f�
 Heizkörper und fehlender Dämmung im Haus sinnvoll (z.B. bei Vorlauftemperaturen > 35°C, 
 allerdings auch teuer).
 
-**Empfehlung: Bei FBH im Neubau sollte die HZU ausgeschaltet werden: AUS** 
+**Empfehlung: Bei FBH im Neubau sollte Continuous Heating ausgeschaltet werden: AUS** 
+
+
