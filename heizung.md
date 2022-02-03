@@ -14,7 +14,9 @@ Die Einstellungen hängen natürlich auch von der Isolierung des Hauses ab.
 Fest steht: bei modernen KfW55 Häusern - meist auch bei 
 ineffizienteren - wird man die Wärme des Fußbodens kaum spüren. Ein Boden, 
 der ca 24 Grad warm ist, wird nicht als warm wargenommem. Temperaturen dadrüber
-würden zur Überheizung des Hauses führen. 
+würden zur Überheizung des Hauses führen. Auch kann man nicht mehr einzelne Räume
+schön warm machen und andere kalt lassen. Wer es im Bad kurzfristig sehr warm
+haben möchte sollte dort eine elektrische Wandheizung (Handtuchwärmer) installieren. 
 
 ### Planung
 

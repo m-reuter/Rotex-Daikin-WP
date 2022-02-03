@@ -27,7 +27,7 @@ unnötigen Abtau-Vorgängen geführt hatten.
 
 Im Folgenden erklären und diskutieren wir die Einstellungen.
 
-### Raumsoll und Heizkurve
+## Raumsoll und Heizkurve
 
 Raumsoll und Heizkurve sind bei witterungsgeführter Heizung (empfohlen!) die beiden
 wichtigsten Parameter um sowohl die Wärme im Haus als auch den Verbrauch zu regulieren. 
@@ -37,7 +37,7 @@ die Einzelraumregler alle (mind. 2/3 der Heizkreise) offen sind
 
 ...
 
-### Heizungsunterstützung (HZU)
+## Heizungsunterstützung (HZU)
 
 Die Heizungsunterstützung (HZU) bewirkt, dass die Heizung unter gewissen Bedingungen
 Wärme aus dem Warmwassertank entnehmen kann. Diese Einstellung ist ggf. sinnvoll, wenn
@@ -57,7 +57,7 @@ unbedingt **neu gestartet** werden! Ab besten einmal kurz mit der Sicherung die 
 wegnehmen. Es sind sonst komische Effekte beobachtet worden (z.B. dass das Außengerät 
 sonst nicht mehr anspringt). 
 
-### Continuous Heating
+## Continuous Heating
 
 Diese Funktion existiert nur bei dem "Ultra" Model. 
 Bei eingeschaltetem "Continuous Heating" wird während des Abtauens Wäremenergie für die
