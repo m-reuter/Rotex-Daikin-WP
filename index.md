@@ -26,7 +26,8 @@ Viele Informationen sind algemein hilfreich, aber konkrete Einstellungen sind f�
 
 bestimmt, wobei auch hier die meisten für das ältere Model ohne Zusatz "Ultra" sinnvoll sein können. 
 
-Geplanter Inhalt:
+### Geplanter Inhalt
+
 - Einführung
   - Fußbodenheizung
   - Hydraulischer Abgleich
@@ -46,5 +47,5 @@ Geplanter Inhalt:
 
 ### Haftungsausschluss
 
-Informationen auf dieser Seite dienen ausschließlich der Weiterbildung und Dokumentation. Wer Einstellungen an seiner Wärmepumpe ändert ist dafür und für alle Konsequenzen selber verantwortlich. Inhaber, Authoren, Kollaboratoren an dieser Webseite können deshalb nicht rechtlich belangt werden. 
+Informationen auf dieser Seite dienen ausschließlich der Weiterbildung und Dokumentation. Wer Einstellungen oder Veränderungen an seiner Wärmepumpe ändert ist dafür und für alle Konsequenzen selber verantwortlich. Inhaber, Authoren, Kollaboratoren an dieser Webseite können deshalb nicht rechtlich belangt werden. 
 
