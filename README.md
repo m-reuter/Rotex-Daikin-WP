@@ -12,7 +12,7 @@ Geplanter Inhalt:
 - Einführung in WP und Fußbodenheizung
 - Hydraulischer Abgleich
 - Einstellungen der WP
-- Smart Home Anbdingungen und Automatisierung
+- Smart Home Anbindung und Automatisierung
 - Smart Grid und Photovoltaik
 
 Links:
