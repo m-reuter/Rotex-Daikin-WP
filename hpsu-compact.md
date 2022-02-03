@@ -41,7 +41,7 @@ die Einzelraumregler alle (mind. 2/3 der Heizkreise) offen sind
 Der Raumsoll ist nicht genau der Wert, der im Haus sein soll, sondern nur ein Parameter, 
 der die Heizkurve komplett nach oben oder unten verschiebt. Ist es also sowohl in der
 Übergangszeit als auch im Winter zu warm oder zu kalt, muss dieser Parameter entsprechend
-angepasst werden. Meist liegt der Wert so bei 20,5 - 21,5.
+angepasst werden. Meist liegt der Wert so bei 20 - 22.
 
 Die Heizkurve wird über den "Heizkurve" Parameter gewählt. Diese Einstellung liegt meist
 bei 0,5 oder 0,4 (empfohlen für KfW55). Wenn es z.B. nur im Winter zu kalt ist, sollte 
@@ -51,12 +51,12 @@ Ein weiterer Wert, die "Vorlauftemperatur Heizbetrieb" ist bei einer witterungsg
 Heizung irrelevant, da dieser Wert ja durch die Heizkurve (in Abhängigkeit von Raumsoll, 
 Heizkurve-Parameter, und Aussentemperatur) berechnet wird und nicht konstant festgelegt wird. 
 
-**Empfehlung:**
+**Empfehlungen:**
 - Einzelraumregler auf
 - Witterungsgeführt
-- Raumsoll 21 (und Verschiebung testen)
-- Heizkurve 0,4 (und auch bei Bedarf anpassen)
-- Vorlauftemperatur Heizbetrieb: egal
+- Raumsoll 21 (und später verschieben, wenn nötig)
+- Heizkurve 0,4 (auch bei Bedarf anpassen)
+- Vorlauftemperatur Heizbetrieb: egal, wird ignoriert
 
 
 ## Vorlauftemperatur Min und Max
@@ -91,10 +91,11 @@ Faktoren ab (z.B Duschverhalten, Anzahl der Personen).
 
 Hinweis: Der WW-Speicher ist gut isoliert und verliert kaum Wärme. Wärme wird natürlich
 entnommen wenn Warmwasser genutzt wird (Händewaschen, Duschen, ...), aber auch bei
-laufender Frischwasser-Zirkulationspumpe (ca 1/2 Grad pro h), oder bei Abtauzyklen. Auch 
-falsche Einstellungen an der Heizung (HZU, Continuous Heating) können viel Energie 
+laufender Frischwasser-Zirkulationspumpe (ca 1/2 Grad pro h), oder bei Abtauzyklen.
+Achtung: falsche Einstellungen an der Heizung (HZU, Continuous Heating) können viel Energie 
 entziehen, die meist über den Heizstab nachgeheizt wird. 
 
+**Empfehlung: WW-Soll 48, Hysterese: 5**
 
 ## Heizungsunterstützung (HZU)
 
@@ -130,7 +131,31 @@ allerdings dann auch teuer).
 
 ## Bivalenztemperatur
 
+Die Bivalenztemperatur ist der Wert der Aussentemperatur, bei dessen Unterschreitung
+der Heizstab beim Heizbetrieb mithelfen darf. Eine falsche Einstellung kann da sehr
+teuer werden. Bei einem gut gedämmten Haus (z.B. KfW55) wird eigentlich bei ausreichender
+Auslegung der WP gar kein Heizstab benötigt, daher kann die Bivalenztemperatur auf -10°C
+oder sogar dadrunter festgelegt werden. Wer natürlich mit einem 4kW Gerät 200qm beheizen
+möchte benötigt da eine andere Einstellung, daher kann hier keine generelle Empfehlung 
+gegeben werden. Ggf. einfach ausprobieren und bei Minusgraden wenns im Haus kalt wird,
+hochsetzen. 
+
+**Empfehlung: -10 bei gut gedämmten Haus und 6 oder 8 kW WP**
+
 ## Frostschutz
+
+Frostschutz ist dazu gedacht das Einfrieren der Heizung und Wasserleitungen im Haus zu
+verhindern. Bei Frostschutz=0 läuft dann die Heizung weiter (z.B. bei Bereitschaft läuft
+die Heizung auf min. Vorlauf also 25°C), wenn die Aussentemperatur nachts
+knapp unter 0°C abfällt. Das macht vielleicht in einer wasserbeheizten Baracke ohne
+Wärmedämmung Sinn. In gut gedämmten Häusern, kann man z.B. auf -10 stellen. 
+
+**Empfehlung: -10 bei gut gedämmten Haus**
+
+Diese Einstellung ist natürlich sicherheitsrelevant. Z.B. schaltet man die WP auf
+Bereitschaft und fährt für 10 Tage in den Urlaub und es bleibt in dieser Zeit konstant
+-9°C, dann kann evtl. schon was einfrieren. Meist sollte man aber sowieso die Heizung 
+weiterlaufen lassen, evtl. bei abgesenktem Raum-Soll. 
 
 ## Gebäudedämmung
 
@@ -171,3 +196,103 @@ WW-Modus gestartet hat (<1 Minute) kann man wieder auf den ursprünglichen Sollw
 runtergehen, ohne dass die WW-Bereitung dadurch gestört wird. 
 
 
+## Heizstab (BUH)
+
+Der Heizstab (auch Backup-Heater BUH genannt) ist in den meisten Fällen der größte, und
+häufig komplett unnötige, Stromverbraucher. Der Heizstab wird normalerwise eingesetzt:
+- Beim Abtauen
+- Nach einer Wartezeit bei WW Aufbereitung
+- Auch im Sommer wenn das Aussengerät über 35°C misst (daher Gerät verschatten)
+
+Es können mehrere Anpassung vorgenommen werden um den Verbrauch des BUH zu reduzieren:
+1. Die drei Verbrauchstufen können angepasst werden
+2. Die Wartezeit bei WW kann verlängert werden
+3. Der Heizstab kann komplett auskonfiguriert werden
+
+### Externe Leistung
+Es gibt für den Heizstab 3 Einstellungen für WW, Stufe 1 und Stufe 2,
+z.B. 3kW, 6kW, 9kW, die angeben wie viel Strom jeweils bei WW und beim Abtauen (Stufe 1,2)
+gezogen wird.  Unter 25°C Rücklauftemperatur wird der Heizstab z.B. beim Abtauen in
+Stufe 1 zugeschaltet, ab 20°C Stufe 2. Man kann daher die Stufen heruntersetzen um etwas
+Strom zu sparen, z.B. auf 3,3,3.
+
+### Wartezeit ext. Wärmeerzeuger
+Für WW Aufbereitung ist es vermutlich besser den Heizstab über die Wartezeit ganz
+abzustellen. Die „Wartezeit ext. Wärmeerzeuger“ kann daher auf 90 Minuten erhöht werden.
+Liegt die "Max. Warmwasser Ladezeit" dadrunter (z.B. 60 min), springt der Heizstab nie
+an (ausser ggf. im Sommer bei über 35°C aussen).
+
+### Heizstab AUS
+Der Heizstab ist ein optionaler Zusatz und kann technisch komplett auskonfiguriert
+werden über:
+
+„Einstellungen“ => „Ext. Quelle“ => „Konfig. externe Wärmequelle“
+
+Nur so kann die Nutzung des Heizstabes beim Abtauen (und im Sommer) vermieden werden.
+Jeder Abtauvorgang zieht den Speicher dann um ca 1-2 Grad runter.
+Das Wiederaufwärmen mit Hilfe der WP (Arbeitszahl > 2) ist günstiger als mit Heizstab 
+AZ=1). Die Anlage macht evtl. eine Sicherheitsabschaltung, wenn beim Abtauen die
+Speichertemperatur unter 30°C fällt. Dies könnte passieren, wenn morgens der Speicher
+nach nächtlicher Abschaltung kühl ist, und jemand duscht und einen Abtauvorgang auslöst. 
+Man kann ggf. durch eine kleinere WW-Hysterese (z.B. 3 Grad) entgegenwirken.
+Schaltet die Anlage doch mal ab, lässt sich der Heizstab ja schnell wieder aktivieren.
+Man muss nur drauf achten. Es zur Zeit keine Fälle bekannt wo so ein 
+Notstopp passiert ist, da mit WW-Soll 48 und 3-5K Hysterese immer genug Wärme da sein 
+sollte. Im Sommer kann es passieren, dass mittags bei sehr hohen Temperaturen kein WW gemacht
+wird, aber wer will da schon heiß duschen. 
+
+**Empfehlung: Ext. Leistung runtersetzen (3,3,3) und Max WW Ladezeit auf 90 Min**
+oder den Heizstab ganz abschalten. Sollte die WP (zu kleines Gerät?) das WW nicht in 1h
+warm bekommen, oder Haus wird kalt, kann man einfach den Heizstab wieder zulassen.
+
+
+## Zirkulationspumpe
+
+Die Zirkulationspumpe (falls überhaupt installiert) verteilt permanent Warmwasser im 
+ganzen Haus, damit man nicht lange darauf warten muss. Das funktioniert meist nicht 
+besonders gut: das Wasser ist trotzdem zunächst nur lauwarm. Ausserdem entzieht die 
+Zirkulation dem WW-Speicher permanent Wärme, ca. 1/2 Grad pro Stunde, die zum großen
+Teil das Haus wärmt, aber leider das ganze Jahr. Es lohnt sich daher evtl. nur ein oder
+drei mal (morgens, mittags, abends), die Pumpe anzuschmeißen. 
+
+Die Zirkulationspumpe wird entweder mit einem eigenen Zeitprogramm gesteuert, oder sie
+hängt am Zeitprogramm der Warmwasserbereitung. Beide Optionen sind einstellbar.
+Es läuft das eigene Zeitprogramm, wenn die Einstellung "Zirkulationspumpe Ansteuerung"
+auf AUS ist! Genau umgekehrt als in der Betriebsanleitung. Wer das nicht weiß
+(also Ansteuerung auf EIN hat) und keine WW Sperrzeiten eingestellt hat, läst unwissend
+die Zirkulation auch in der Nacht durchlaufen, egal welches Zeitprogramm bei der 
+Zirkulation eingestellt ist. 
+
+**Empfehlung: Zirkulationspumpe Ansteuerung: AUS und dann im Zirkulationsprogramm 1-2
+Zeiträume wählen**
+
+
+## Nachtabschaltung
+
+WW-Aufbereitung, Zirkulationspumpe und sogar die Heizung können in der Nacht über
+Zeitprogramme abgeschaltet werden. Da nachts die Aussentemperaturen meist niedriger sind,
+und um viele Abtauzyklen zu vermeiden, macht eine Abschaltung viel Sinn. Bei guter
+Isolation des Hauses, kühlt es um ca 1/2 Grad ab. Falls eine Lüftungsanlage ohne
+Wärmerückgewinnung installiert ist (nicht gut!), sollte diese evtl. acuh abgeschaltet 
+oder runtergedreht werden damit das Haus nicht stärker auskühlt. 
+
+Leider lässt sich die Heizung nachts über das Zeitprogramm nicht komplett ausschalten:
+- falls die Frostschutzemperatur erreicht wird (selten)
+- oder falls die Rücklauftemperatur unter 22 Grad sinkt (durchaus möglich)
+schaltet die Heizung automatisch wieder ein! Dies lässt sich nur mit einem externen
+Wohnraumthermostat vermeiden. 
+
+**Empfehlung: alles nachts aus**
+
+## Externes Raum-Thermostat
+
+Ein Externes Raum-Thermostat kann basierend auf der tatsächlichen Raumtemperatur in einem 
+Leitraum die WP-Heizung abschalten. Dies ist hilfreich um in der Übergangszeit bei 
+Sonneneinstrahlung ein Überheizen zu vermeiden. Ein Empfänger wird dabei über zwei Kabel
+an der WP angeschlossen (J16 Pin 1,2) und der Sender im Leitraum installiert.
+Darüber lässt sich auch ein Zeitprogramm einstellen dass die WP z.B. in der Nacht 
+wirklich abschaltet (bei Frostschutz geht sie natürlich weiterhin an).
+In Frage kommt z.B. ein Computherm Q3 RF oder Q7 RF.  Ähnliches lässt sich auch mit
+einer Smart-Home Anbindung realisieren.
+
+**Empfehlung: ein ext. Raum-Thermostat macht Sinn**
