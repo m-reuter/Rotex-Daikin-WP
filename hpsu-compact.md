@@ -283,8 +283,10 @@ Wärmerückgewinnung installiert ist (nicht gut!), sollte diese evtl. auch abges
 oder runter gedreht werden damit das Haus nicht stärker auskühlt. 
 
 Leider lässt sich die Heizung nachts über das Zeitprogramm nicht komplett ausschalten:
+
 - falls die Frostschutzemperatur erreicht wird (selten)
 - oder falls die Rücklauftemperatur unter 22 Grad sinkt (durchaus möglich)
+
 schaltet die Heizung automatisch wieder ein! Dies lässt sich nur mit einem externen
 Wohnraumthermostat vermeiden. 
 
