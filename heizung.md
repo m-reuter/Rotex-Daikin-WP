@@ -79,4 +79,4 @@ Aussengerät über 0°C bleibt.
 
 ---
 
-[Einstellungen HPSU compact](hpsu-compact.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Einstellungen HPSU compact]({{ site.baseurl }}{% link hpsu-compact.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }

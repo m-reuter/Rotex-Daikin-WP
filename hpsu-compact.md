@@ -15,17 +15,19 @@ dass die maximale Leistung dabei an das Haus und an den Warmwassertank angepasst
 Ein 4kW Gerät braucht nämlich viel zu lange um 500l aufzuwärmem (selbst wenn sich um 
 einen Bungalow mit nur einem Raum handelt). 
 
-Auch der Tank sollte die richtige Größe haben. Bei 4 Personen (vermutlich auch bei 3) 
-ist unbedingt der 500l Tank zu empfehlen! Sonst wird es schnell mal bei Duschen kalt,
+Auch der WW-Speicher sollte die richtige Größe haben. Bei 4 Personen (vermutlich auch bei 3) 
+ist unbedingt der 500l Speicher zu empfehlen! Sonst wird es schnell mal beim Duschen kalt,
 was sogar bei 4 Personen und 500l vorkommen kann. Auch für ein Abtauen ohne Heizstab und
-für Wärmespeicherung aus Solar oder Photovoltaik ist ein größerer Tank sinnvoll. 
+für Wärmespeicherung aus Solar oder Photovoltaik ist ein größerer Speicher sinnvoll. 
 
 Auch das "Ultra" Modell mit der neuen Kühlflüssigkeit ist zu empfehlen, da es effizienter 
 arbeitet und meist mit niedrigeren Drehzahlen auskommt als das Vorgängermodel. Ausserdem, 
 sind wohl einige Probleme am Aussengerät beseitigt worden, die zu ständigen, größtenteils 
-unnötigen Abtau-Vorgängen geführt hatten.
+unnötigen [Abtau-Vorgängen](https://www.haustechnikdialog.de/Forum/t/215735/Rotex-HPSU-Daikin-Abtaugeschaedigte) geführt hatten.
 
-Im Folgenden erklären und diskutieren wir die Einstellungen.
+Im Folgenden erklären und diskutieren wir die Einstellungen. Viele der informationen 
+stammen aus dem [HPSU compact ultra Forum](https://www.haustechnikdialog.de/Forum/t/226662/ROTEX-HPSU-compact-Ultra-ab-2018-Erfahrungen-Optimierung)
+des Haustechnikdialogs. Ein Dank geht an die vielen Helfer dort!
 
 ## Raumsoll und Heizkurve
 
@@ -273,8 +275,8 @@ WW-Aufbereitung, Zirkulationspumpe und sogar die Heizung können in der Nacht ü
 Zeitprogramme abgeschaltet werden. Da nachts die Aussentemperaturen meist niedriger sind,
 und um viele Abtauzyklen zu vermeiden, macht eine Abschaltung viel Sinn. Bei guter
 Isolation des Hauses, kühlt es um ca 1/2 Grad ab. Falls eine Lüftungsanlage ohne
-Wärmerückgewinnung installiert ist (nicht gut!), sollte diese evtl. acuh abgeschaltet 
-oder runtergedreht werden damit das Haus nicht stärker auskühlt. 
+Wärmerückgewinnung installiert ist (nicht gut!), sollte diese evtl. auch abgeschaltet 
+oder runter gedreht werden damit das Haus nicht stärker auskühlt. 
 
 Leider lässt sich die Heizung nachts über das Zeitprogramm nicht komplett ausschalten:
 - falls die Frostschutzemperatur erreicht wird (selten)
@@ -293,12 +295,12 @@ an der WP angeschlossen (J16 Pin 1,2) und der Sender im Leitraum installiert.
 Darüber lässt sich auch ein Zeitprogramm einstellen dass die WP z.B. in der Nacht 
 wirklich abschaltet (bei Frostschutz geht sie natürlich weiterhin an).
 In Frage kommt z.B. ein Computherm Q3 RF oder Q7 RF.  Ähnliches lässt sich auch mit
-einer Smart-Home Anbindung realisieren.
+einer [Smart-Home]({{ site.baseurl }}{% link smart-home.md %}) Anbindung realisieren.
 
 **Empfehlung: ein ext. Raum-Thermostat macht Sinn**
 
 
 ---
 
-[Smart-Home](smart-home.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Smart-Home]({{ site.baseurl }}{% link smart-home.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
