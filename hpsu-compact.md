@@ -247,15 +247,15 @@ werden über:
 Nur so kann die Nutzung des Heizstabes beim Abtauen (und im Sommer) vermieden werden.
 Jeder Abtauvorgang zieht den Speicher dann um ca 1-2 Grad runter.
 Das Wiederaufwärmen mit Hilfe der WP (Arbeitszahl > 2) ist günstiger als mit Heizstab 
-AZ=1). Die Anlage macht evtl. eine Sicherheitsabschaltung, wenn beim Abtauen die
+(AZ=1). Die Anlage macht evtl. eine Sicherheitsabschaltung, wenn beim Abtauen die
 Speichertemperatur unter 30°C fällt. Dies könnte passieren, wenn morgens der Speicher
 nach nächtlicher Abschaltung kühl ist, und jemand duscht und einen Abtauvorgang auslöst. 
 Man kann ggf. durch eine kleinere WW-Hysterese (z.B. 3 Grad) entgegenwirken.
 Schaltet die Anlage doch mal ab, lässt sich der Heizstab ja schnell wieder aktivieren.
-Man muss nur drauf achten. Es zur Zeit keine Fälle bekannt wo so ein 
-Notstopp passiert ist, da mit WW-Soll 48 und 3-5K Hysterese immer genug Wärme da sein 
-sollte. Im Sommer kann es passieren, dass mittags bei sehr hohen Temperaturen kein WW gemacht
-wird, aber wer will da schon heiß duschen. 
+Man muss nur drauf achten. Es sind zur Zeit keine Fälle bekannt wo so ein 
+Notstopp passiert ist, da mit WW-Soll 48 und 4-5K Hysterese immer genug Wärme da sein 
+sollte. Im Sommer kann es passieren, dass mittags bei sehr hohen Temperaturen kein WW
+aufbereitet wird, aber wer will da schon heiß duschen. 
 
 **Empfehlung: Ext. Leistung runtersetzen (3,3,3) und Max WW Ladezeit auf 90 Min**
 oder den Heizstab ganz abschalten. Sollte die WP (zu kleines Gerät?) das WW nicht in 1h
@@ -294,18 +294,19 @@ oder runter gedreht werden damit das Haus nicht stärker auskühlt.
 
 Leider lässt sich die Heizung nachts über das Zeitprogramm nicht komplett ausschalten:
 
-- falls die Frostschutzemperatur erreicht wird (selten)
-- oder falls die Rücklauftemperatur unter 22 Grad sinkt (durchaus möglich)
+1. falls die Frostschutzemperatur erreicht wird (selten)
+2. oder falls die Rücklauftemperatur unter 22 Grad sinkt (durchaus möglich)
 
-schaltet die Heizung automatisch wieder ein! Dies lässt sich nur mit einem externen
-Wohnraumthermostat vermeiden. 
+schaltet die Heizung automatisch wieder ein! Die zweite Situation lässt sich immerhin
+mit einem externen Wohnraumthermostat vermeiden. 
 
-**Empfehlung: alles nachts aus**
+**Empfehlung: alles nachts aus, Zirkulation und evtl. WW sogar länger**
+
 
 ## Externes Raum-Thermostat
 
 Ein Externes Raum-Thermostat kann basierend auf der tatsächlichen Raumtemperatur in einem 
-Leitraum die WP-Heizung abschalten. Dies ist hilfreich um in der Übergangszeit bei 
+Leitraum die WP-Heizung schalten. Dies ist hilfreich um in der Übergangszeit bei 
 Sonneneinstrahlung ein Überheizen zu vermeiden. Ein Empfänger wird dabei über zwei Kabel
 an der WP angeschlossen (J16 Pin 1,2) und der Sender im Leitraum installiert.
 Darüber lässt sich auch ein Zeitprogramm einstellen dass die WP z.B. in der Nacht 
