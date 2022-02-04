@@ -168,9 +168,9 @@ auf veränderte Außentemperaturen besser reagieren kann.
 
 Flüstermodus im Nachtbetrieb ist durchaus sinnvoll. Bei der "Ultra" gibt es drei Stufen:
 
-Stufe 1: Keine Veränderungen erkennbar 
-Stufe 2: Reduktion der maximalen, elektrischen Verdichterleistung um ca. 13%
-Stufe 3: Zusätzlich Reduktion der Lüfterdrehzahl von max. 780U/min auf 680U/min
+1. Stufe: Keine Veränderungen erkennbar 
+2. Stufe: Reduktion der maximalen, elektrischen Verdichterleistung um ca. 13%
+3. Stufe: Zusätzlich Reduktion der Lüfterdrehzahl von max. 780U/min auf 680U/min
 
 In Stufe drei dürfte die 8kW-Version damit ungefähr der 6kW-Version entsprechen.
 Die 13% niedrigere Verdichterleistung (elektrisch) kann durchaus 30% weniger thermische

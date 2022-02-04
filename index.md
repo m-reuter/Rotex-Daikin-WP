@@ -60,7 +60,9 @@ bestimmt, wobei auch hier die meisten für das ältere Model ohne Zusatz "Ultra"
 
 Wir freuen uns sehr über Eure Unterstützung. Bitte hilf mit diese Seiten zu verbessern. 
 Das geht am Besten über ein Issue oder Pull-Request auf [GitHub](https://github.com/m-reuter/Rotex-Daikin-WP).
-Dort befindet sich diese Web-Seite als Open Source Projekt (MIT License). 
+Dort befindet sich diese Web-Seite als Open Source Projekt (MIT License). Auch im 
+[Diskussionsforum zu dieser Webseite](https://www.haustechnikdialog.de/Forum/p/3272084)
+können Kommentare hinterlassen werden. 
 
 ### Haftungsausschluss
 
