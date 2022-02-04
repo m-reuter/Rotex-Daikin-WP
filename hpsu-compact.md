@@ -265,7 +265,7 @@ Die Zirkulationspumpe wird entweder mit einem eigenen Zeitprogramm gesteuert, od
 hängt am Zeitprogramm der Warmwasserbereitung. Beide Optionen sind einstellbar.
 Es läuft das eigene Zeitprogramm, wenn die Einstellung "Zirkulationspumpe Ansteuerung"
 auf AUS ist! Genau umgekehrt als in der Betriebsanleitung. Wer das nicht weiß
-(also Ansteuerung auf EIN hat) und keine WW Sperrzeiten eingestellt hat, läst unwissend
+(also Ansteuerung auf EIN hat) und keine WW Sperrzeiten eingestellt hat, lässt unwissend
 die Zirkulation auch in der Nacht durchlaufen, egal welches Zeitprogramm bei der 
 Zirkulation eingestellt ist. 
 
