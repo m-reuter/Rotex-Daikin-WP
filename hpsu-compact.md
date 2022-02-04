@@ -34,11 +34,12 @@ Wichtig, diese Einstellungen beziehen sich auf die HPSU Compact Ultra in den 4kW
 auch bei anderen Modellen sinnvoll. 
 
 
-## Service-Menu
+## Erweiterter Zugriff
 
 Damit nicht aus Versehen wichtige Einstellungen verändert werden, lassen sich einige
 Einstellungen nur nach Eingabe des Service-Codes erreichen. Der vier-stellige Code
-wurde in den Haustechnik Foren schon mindestens *tausend-und-ein* mal erwähnt! Wer 
+wurde in den Haustechnik Foren schon mindestens *tausend-und-ein* mal erwähnt! Er kann 
+unter Konfiguration => Zugriff eingegeben werden. Wer 
 Einstellungen an seiner WP verändert, ist dafür und für alle Konsequenzen
 natürlich selbst verantwortlich. 
 
@@ -46,7 +47,7 @@ natürlich selbst verantwortlich.
 ## Raumsoll und Heizkurve
 
 Die Heizung sollte im Witterungsgeführten Betrieb laufen, damit sich die Heizleistung 
-der Außentemperatur anpassen kann!
+der Außentemperatur anpassen kann (Einstellung unter "Heizkreis Konfiguration")!
 
 Raumsoll und Heizkurve sind bei witterungsgeführter Heizung die beiden
 wichtigsten Parameter um sowohl die Wärme im Haus als auch den Verbrauch zu regulieren. 
@@ -292,8 +293,8 @@ kurze Zeiträume wählen**
 
 WW-Aufbereitung, Zirkulationspumpe und sogar die Heizung können in der Nacht über
 Zeitprogramme abgeschaltet werden. Da nachts die Außentemperaturen meist niedriger sind,
-und um viele Abtauzyklen zu vermeiden, macht eine Abschaltung viel Sinn. Bei guter
-Isolation des Hauses, kühlt es um ca 1/2 Grad ab. Falls eine Lüftungsanlage ohne
+und um viele Abtauzyklen zu vermeiden, macht eine Abschaltung Sinn. Bei guter
+Isolation des Hauses, kühlt es nur um ca 1/2 Grad ab. Falls eine Lüftungsanlage ohne
 Wärmerückgewinnung installiert ist (nicht gut!), sollte diese evtl. auch abgeschaltet 
 oder runter gedreht werden damit das Haus nicht stärker auskühlt. 
 
@@ -305,8 +306,11 @@ Leider lässt sich die Heizung nachts über das Zeitprogramm nicht komplett auss
 schaltet die Heizung automatisch wieder ein! Die zweite Situation lässt sich immerhin
 mit einem externen Wohnraumthermostat vermeiden. 
 
-**Empfehlung: alles nachts aus, Zirkulation und evtl. WW sogar länger**
+**Empfehlung: bei guter Dämmung alles nachts aus, Zirkulation und evtl. WW sogar länger**
 
+Bei schlechter Dämmung, sollte allerdings die Heizung weiterlaufen, da das Haus sonst zu
+sehr auskühlt, was auch an Fenstern oder Türen Feuchtigkeit und Schimmel verursachen 
+kann. 
 
 ## Externes Raum-Thermostat
 
