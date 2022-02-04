@@ -178,9 +178,13 @@ Leistung, also 6kW bedeuten. Das schont die WP und hat keinen erwähnenswerten E
 auf die Arbeitszahl (AZ).
 
 Achtung: Es wurde vereinzelt berichtet dass ein Dauerbetrieb in Stufe 3 nicht sinnvoll ist, 
-da i) die Heizung an kalten Tagen für das Haus zu schwach ist, und ii) diese Einstellung
-zu häufigen, unnötigen Abtauzyklen führen kann. Daher sollte der Flüstermodus nur 
-nachts eingesetzt werden. Oder besser, man schaltet nachts ganz ab (mehr unten).
+da
+
+- i) die Heizung an kalten Tagen für das Haus zu schwach ist, und
+- ii) diese Einstellung zu häufigen, unnötigen Abtauzyklen führen kann.
+
+Daher sollte der Flüstermodus nur 
+nachts eingesetzt werden. Oder besser, man schaltet nachts ganz ab ([Nachtabschaltung](#nachtabschaltung)).
 
 **Empfehlung: Nachts auf Stufe 3** 
 
