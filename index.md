@@ -28,7 +28,7 @@ Mehrwert für den Nutzer und sollten daher vermieden werden.
 
 Viele Informationen sind algemein hilfreich, aber konkrete Einstellungen sind für die 
 
-**ROTEX HPSU compact Ultra / DAIKIN Altherma 3 R ECH2O**
+[ROTEX HPSU compact Ultra / DAIKIN Altherma 3 R ECH2O (externer link)](https://fachportal.rotex-heating.com/technische-unterlagen/archiv/rotex-hpsu-compact-ultra.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 bestimmt, wobei auch hier die meisten für das ältere Model ohne Zusatz "Ultra" sinnvoll sein können. 
 
