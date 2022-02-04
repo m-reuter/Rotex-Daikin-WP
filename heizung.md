@@ -58,13 +58,13 @@ Dies wird allerdings häufig vergessen. Details finden sich im Haustechnik Forum
 
 Hinzu kommt ein späterer **Thermischer Abgleich**. Dabei müssen die einzelnen Heizkreise so
 eingeregelt werden, dass man genug Wärme z.B. im Wohnzimmer-Nordseite hat.
-Andere Kreise werden dann runtergeregelt, damit es dort nicht zu heiß wird. 
+Andere Kreise werden dann runter geregelt, damit es dort nicht zu heiß wird. 
 Dazu muss man den bzgl. Wärme anspruchsvollsten Raum über die Heizkurve auf Solltemperatur
 bringen. Wenn dann andere Räume zu warm werden, muss man über die statischen (!) Durchflussregler
 an den Heizkreisverteilern so weit drosseln, dass die Temperatur stimmt.
 Immer unter Beachtung von min. 720l/min an der Heizungszentrale (bei der Rotex HPSU).
 Details finden sich im Haustechnik Forum
-([Thermischer Abgleich (extern)](https://www.haustechnikdialog.de/SHKwissen/2711/Thermischer-Abgleich).
+([Thermischer Abgleich (extern)](https://www.haustechnikdialog.de/SHKwissen/2711/Thermischer-Abgleich)).
 
 Wenn alles einigermaßen richtig eingestellt ist, kann die Heizung konstant und effizient
 Wärme im Haus verteilen. Die Temperaturabgabe regelt sich dann auch selbst, da ein 
