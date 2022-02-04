@@ -29,7 +29,9 @@ Es gibt etiliche open source Software-Systeme für die Smart-Home Steuerung, z.B
  
 wegen seiner aktiven Community, Bedienerfreundlichkeit, regelmäßigen Updates und flexiblen
 Erweiterbarkeit. Es existieren auch bereits Erweiterungen die eine Anbindung der HPSU WP
-über die folgenden zwei Projekte ermöglicht.
+über die ESPAltherma und pyHPSU Projekte ermöglicht. Ein großer Vorteil ist, dass sämtliche
+Kommunikation direkt funktioniert und keine Cloudanbindung nötig ist! Die Daten bleiben
+im Haus!
 
 ## ESPAltherma
 
@@ -64,3 +66,13 @@ auszulesen. Dadurch kann der Verbrauch des Hauses oder der Wärmepumpe mitgeschr
 werden. Auch hierzu gibt es ein HomeAssistant Add-On [vzlogger2mqtt](https://github.com/m-reuter/ha-addons)
 das die Installation und Einbindung in HomeAssistant (über MQTT) übernimmt. 
 
+## Shelly 3EM
+
+Eine andere Möglichkeit den Strom der WP zu messen ist der [Shelly 3EM](https://shelly.cloud/products/shelly-3em-smart-home-automation-energy-meter/). 
+Shellies sind kleine Relais mit W-LAN die z.B. in die Unterputzdose eingesetzt werden können
+um Rolladen, Lichtschalter, Dimmer, oder Gartenbewässerung zu steuern. Es gibt auch
+Shelly Plugs, die als
+Zwischenstecker für Stehlampen, Waschmaschine etc. sowohl für die Steuerung als auch 
+Strommessung genutzt werden können. Der (nicht ganz günstige) 3EM hingegen ist ein 
+3-Phasen Strommesser, z.B. für den Elektroherd oder die Wärmepumpe. Shellies können 
+sehr leicht in HomeAssistant eingebunden werden. 
