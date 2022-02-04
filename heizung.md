@@ -70,8 +70,13 @@ Dabei wird eine Flüssigkeit (Kältemittel) verdampft. Nach dem Verdichten wird 
 wieder eine Flüssigkeit, die am Kondensator die Wärme an das Heizwasser bzw. Warmwasser abgibt.
 
 Luft-Wasser Wärmepumpen entziehen dabei die Wärme aus der Luft, was selbst bei Minusgraden 
-noch recht gut funktioniert. Es ist nämlich auch unter 0 noch erstaunlich viel Wärme 
-in der Luft. Leider kondensiert die Umgebungsluft bei ca (-2)-4 Grad Celsius an dem Aussengerät, 
+noch recht gut funktioniert. Es ist nämlich auch unter 0°C noch erstaunlich viel Wärme 
+in der Luft. Leider kondensiert die Umgebungsluft bei ca (-2)-4°C an dem Aussengerät, 
 was zu häufigen und ggf. teuren Abtauzyklen führen kann. Bei kälteren Temperaturen ist die
 Luft oft sehr trocken und bei höheren ist ein Abtauen nicht nötig, weil die Temperatur am 
-Aussengerät über 0 Grad bleibt. 
+Aussengerät über 0°C bleibt. 
+
+
+---
+
+[Einstellungen HPSU compact](hpsu-compact.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }

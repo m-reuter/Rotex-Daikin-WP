@@ -296,3 +296,9 @@ In Frage kommt z.B. ein Computherm Q3 RF oder Q7 RF.  Ähnliches lässt sich auc
 einer Smart-Home Anbindung realisieren.
 
 **Empfehlung: ein ext. Raum-Thermostat macht Sinn**
+
+
+---
+
+[Smart-Home](smart-home.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+
