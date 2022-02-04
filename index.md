@@ -54,7 +54,8 @@ bestimmt, wobei auch hier die meisten für das ältere Model ohne Zusatz "Ultra"
 - [Rotex Technische Unterlagen](https://fachportal.rotex-heating.com/technische-unterlagen/archiv/rotex-hpsu-compact-ultra.html)
 - [Haustechnik Forum HPSU compact ultra](https://www.haustechnikdialog.de/Forum/t/226662/ROTEX-HPSU-compact-Ultra-ab-2018-Erfahrungen-Optimierung)
 - [Verbrauchsdatenbank](https://www.waermepumpen-verbrauchsdatenbank.de)
-
+- [Haustechnik Forum A-Z](https://www.haustechnikdialog.de/SHKwissen/A-Z/A)
+- [Diese Seite auf GitHub](https://github.com/m-reuter/Rotex-Daikin-WP)
 
 ### Hilf mit!
 

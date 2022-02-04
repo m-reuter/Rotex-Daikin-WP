@@ -25,9 +25,9 @@ niedrigen Stromverbrauch und ausreichender Rechenleistung und RAM.
 Es gibt etiliche open source Software-Systeme für die Smart-Home Steuerung, z.B. 
 [OpenHAB](https://www.openhab.org/), [FHEM](https://fhem.de/) etc. Hier empfehlen wir:
 
-[HomeAssistant](https://www.home-assistant.io/)
+[HomeAssistant](https://www.home-assistant.io/) oder [ioBroker](https://www.iobroker.net/)
  
-wegen seiner aktiven Community, Bedienerfreundlichkeit, regelmäßigen Updates und flexiblen
+wegen ihrer aktiven Community, Bedienerfreundlichkeit, regelmäßigen Updates und flexiblen
 Erweiterbarkeit. Es existieren auch bereits Erweiterungen die eine Anbindung der HPSU WP
 über die ESPAltherma und pyHPSU Projekte ermöglicht. Ein großer Vorteil ist, dass sämtliche
 Kommunikation direkt funktioniert und keine Cloudanbindung nötig ist! Die Daten bleiben

@@ -29,6 +29,10 @@ Im Folgenden erklären und diskutieren wir die Einstellungen. Viele der informat
 stammen aus dem [HPSU compact ultra Forum](https://www.haustechnikdialog.de/Forum/t/226662/ROTEX-HPSU-compact-Ultra-ab-2018-Erfahrungen-Optimierung)
 des Haustechnikdialogs. Ein Dank geht an die vielen Helfer dort!
 
+Wichtig, diese Einstellungen beziehen sich auf die HPSU Compact Ultra in den 4kW, 6kW und
+8kW Größen (mit R32 eingeführter Steuerung). Viele Einstellungen sind aber vermutlich 
+auch bei anderen Modellen sinnvoll. 
+
 
 ## Service-Menu
 
@@ -47,7 +51,7 @@ der Außentemperatur anpassen kann!
 Raumsoll und Heizkurve sind bei witterungsgeführter Heizung die beiden
 wichtigsten Parameter um sowohl die Wärme im Haus als auch den Verbrauch zu regulieren. 
 Dabei ist es wichtig, dass zuvor die Fußbodenheizung richtig eingestellt wurde und 
-die Einzelraumregler alle (mind. 2/3 der Heizkreise) offen sind
+die Einzelraumregler (fast) alle offen sind
 ([siehe Heizung]({{ site.baseurl }}{% link heizung.md %}))!
 
 Der Raumsoll ist nicht genau der Wert, der im Haus sein soll, sondern nur ein Parameter, 
@@ -131,7 +135,8 @@ sonst nicht mehr anspringt).
 
 ## Continuous Heating
 
-Diese Funktion existiert nur bei dem "Ultra" Model. 
+Diese Funktion existiert nur bei dem "Ultra" Model und wird in den älteren Modellen
+(mit R410A, gebaut bis 8/2018) nicht angezeigt. 
 Bei eingeschaltetem "Continuous Heating" wird während des Abtauens Wäremenergie für die
 Heizung aus dem Speicher entnommen. Die entnommene Wärme muss nachgeheizt werden. Meist
 passiert das mit Heizstab, was nicht energieeffizient ist. Bei Fußbodenheizung wird

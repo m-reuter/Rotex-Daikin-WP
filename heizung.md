@@ -16,7 +16,8 @@ ineffizienteren - wird man die Wärme des Fußbodens kaum spüren. Ein Boden,
 der ca 24 Grad warm ist, wird nicht als warm wargenommem. Temperaturen dadrüber
 würden zur Überheizung des Hauses führen. Auch kann man nicht mehr einzelne Räume
 schön warm machen und andere kalt lassen. Wer es im Bad kurzfristig sehr warm
-haben möchte sollte dort eine elektrische Wandheizung (Handtuchwärmer) installieren. 
+haben möchte sollte dort eine elektrische Wandheizung ([siehe Badzusatzheizung (extern)](https://www.haustechnikdialog.de/SHKwissen/1102/Badzusatzheizung))
+installieren. 
 
 ### Planung
 
@@ -39,17 +40,21 @@ geschlossenen Stellung, abhängig vom Ventil, und zwar evtl. das ganze Jahr!). Z
 es für die Wärmepumpe Gift, wenn ständig irgendwo Ventile auf und zu gehen. Viele Räume pendeln
 permanent hin und her, andere bleiben ganz aus. Meist heizen dadurch die Nachbarräume mit, was sehr ineffizient ist. 
 
-Es sollte unbedingt darauf geachtet werden, dass mindestens 2/3 aller Ventile (also ERR) immer 
+Es sollte unbedingt darauf geachtet werden, dass (fast) alle Ventile (also ERR) immer 
 geöffnet sind. Dazu kann man die ERR auf Maximum stellen, oder die automatischen Regler von
-den Heizkreisventilen abziehen. Einzelne Räume wie z.B. Keller oder Schlafzimmer, kann man
-weiterhin über ERR regeln (solange das nicht mehr als 1/3 der Fläche ausmacht).
+den Heizkreisventilen abziehen. Wer Effizienzeinbußen in Kauf nehmen will, kann einzelne
+Räume wie z.B. Keller oder Schlafzimmer, weiterhin über ERR regeln
+(das sollte keinesfalls mehr als 1/3 der Fläche ausmachen). Eine ausführliche Diskussion
+findet sich im [Haustechnik Forum (extern)](https://www.haustechnikdialog.de/SHKwissen/2280/Einzelraumregelung-bei-Niedertemperatur-Heizung-Ja-oder-Nein).
+
 
 ### Hydraulischer und Thermischer Abgleich
 
 Ein modernes System regelt sich selbst. Damit das gut funktioniert ist ein **Hydraulischer Abgleich**
 wichtig, den der Heizungstechniker (normalerweise) machen sollte. Dabei wird abhängig von der
 beheizten Fläche und Heizkreislänge der Durchfluss am Ventil im Verteilerschrank angepasst. 
-Dies wird allerdings häufig vergessen. 
+Dies wird allerdings häufig vergessen. Details finden sich im Haustechnik Forum
+([Hydraulischer Abgleich (extern)](https://www.haustechnikdialog.de/SHKwissen/335/Hydraulischer-Abgleich)).
 
 Hinzu kommt ein späterer **Thermischer Abgleich**. Dabei müssen die einzelnen Heizkreise so
 eingeregelt werden, dass man genug Wärme z.B. im Wohnzimmer-Nordseite hat.
@@ -58,6 +63,8 @@ Dazu muss man den bzgl. Wärme anspruchsvollsten Raum über die Heizkurve auf So
 bringen. Wenn dann andere Räume zu warm werden, muss man über die statischen (!) Durchflussregler
 an den Heizkreisverteilern so weit drosseln, dass die Temperatur stimmt.
 Immer unter Beachtung von min. 720l/min an der Heizungszentrale (bei der Rotex HPSU).
+Details finden sich im Haustechnik Forum
+([Thermischer Abgleich (extern)](https://www.haustechnikdialog.de/SHKwissen/2711/Thermischer-Abgleich).
 
 Wenn alles einigermaßen richtig eingestellt ist, kann die Heizung konstant und effizient
 Wärme im Haus verteilen. Die Temperaturabgabe regelt sich dann auch selbst, da ein 
