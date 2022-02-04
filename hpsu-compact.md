@@ -12,13 +12,13 @@ kommt. Daher gibt es auch verschiedene Systeme um Daten der Geräte auszulesen (
 
 Die Geräte werden in verschiedenen Klassen (4kW, 6kW, 8kW ..) angeboten. Wichtig ist, 
 dass die maximale Leistung dabei an das Haus und an den Warmwassertank angepasst ist. 
-Ein 4kW Gerät braucht nämlich viel zu lange um 500l aufzuwärmem (selbst wenn sich um 
+Ein 4kW Gerät braucht nämlich viel zu lange um 500l aufzuwärmem (selbst wenn es sich um 
 einen Bungalow mit nur einem Raum handelt). 
 
-Auch der WW-Speicher sollte die richtige Größe haben. Bei 4 Personen (vermutlich auch bei 3) 
+Genauso sollte der WW-Speicher die richtige Größe haben. Bei 4 Personen (vermutlich auch bei 3) 
 ist unbedingt der 500l Speicher zu empfehlen! Sonst wird es schnell mal beim Duschen kalt,
-was sogar bei 4 Personen und 500l vorkommen kann. Auch für ein Abtauen ohne Heizstab und
-für Wärmespeicherung aus Solar oder Photovoltaik ist ein größerer Speicher sinnvoll. 
+was sogar bei 4 Personen und 500l vorkommen kann. Ausserdem ist für ein Abtauen ohne Heizstab und
+für Wärmespeicherung aus Solar oder Photovoltaik ein größerer Speicher sinnvoll. 
 
 Auch das "Ultra" Modell mit der neuen Kühlflüssigkeit ist zu empfehlen, da es effizienter 
 arbeitet und meist mit niedrigeren Drehzahlen auskommt als das Vorgängermodel. Ausserdem, 
@@ -28,6 +28,16 @@ unnötigen [Abtau-Vorgängen](https://www.haustechnikdialog.de/Forum/t/215735/Ro
 Im Folgenden erklären und diskutieren wir die Einstellungen. Viele der informationen 
 stammen aus dem [HPSU compact ultra Forum](https://www.haustechnikdialog.de/Forum/t/226662/ROTEX-HPSU-compact-Ultra-ab-2018-Erfahrungen-Optimierung)
 des Haustechnikdialogs. Ein Dank geht an die vielen Helfer dort!
+
+
+## Service-Menu
+
+Damit nicht aus Versehen wichtige Einstellungen verändert werden, lassen sich einige
+Einstellungen nur nach Eingabe des Service-Codes erreichen. Der vier-stellige Code
+wurde in den Haustechnik Foren schon mindestens *tausend-und-ein* mal erwähnt! Wer 
+Einstellungen an seiner WP verändert, ist dafür und für alle Konsequenzen
+natürlich selbst verantwortlich. 
+
 
 ## Raumsoll und Heizkurve
 
