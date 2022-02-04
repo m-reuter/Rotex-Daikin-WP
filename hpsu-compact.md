@@ -7,7 +7,7 @@ nav_order: 3
 ## HPSU Compact Ultra / Altherma 3 R ECH2O
 
 Die Rotex HPUS Compact Ultra wird inzwischen von DAIKIN als Altherma 3 R ECH2O vermarktet. 
-Das Aussengerät stammte schon immer von Daikin, wobei das Innengerät von Rotex
+Das Außengerät stammte schon immer von Daikin, wobei das Innengerät von Rotex
 kommt. Daher gibt es auch verschiedene Systeme um Daten der Geräte auszulesen (mehr dazu in Smart-Home).
 
 Die Geräte werden in verschiedenen Klassen (4kW, 6kW, 8kW ..) angeboten. Wichtig ist, 
@@ -22,7 +22,7 @@ für Wärmespeicherung aus Solar oder Photovoltaik ist ein größerer Speicher s
 
 Auch das "Ultra" Modell mit der neuen Kühlflüssigkeit ist zu empfehlen, da es effizienter 
 arbeitet und meist mit niedrigeren Drehzahlen auskommt als das Vorgängermodel. Ausserdem, 
-sind wohl einige Probleme am Aussengerät beseitigt worden, die zu ständigen, größtenteils 
+sind wohl einige Probleme am Außengerät beseitigt worden, die zu ständigen, größtenteils 
 unnötigen [Abtau-Vorgängen](https://www.haustechnikdialog.de/Forum/t/215735/Rotex-HPSU-Daikin-Abtaugeschaedigte) geführt hatten.
 
 Im Folgenden erklären und diskutieren wir die Einstellungen. Viele der informationen 
@@ -51,7 +51,7 @@ eher dieser Paramater erhöht werden, statt mit Raumsoll die ganze Kurve zu vers
 
 Ein weiterer Wert, die "Vorlauftemperatur Heizbetrieb" ist bei einer witterungsgeführten
 Heizung irrelevant, da dieser Wert ja durch die Heizkurve (in Abhängigkeit von Raumsoll, 
-Heizkurve-Parameter, und Aussentemperatur) berechnet wird und nicht konstant festgelegt wird. 
+Heizkurve-Parameter, und Außentemperatur) berechnet wird und nicht konstant festgelegt wird. 
 
 **Empfehlungen:**
 - Einzelraumregler auf
@@ -133,7 +133,7 @@ allerdings dann auch teuer).
 
 ## Bivalenztemperatur
 
-Die Bivalenztemperatur ist der Wert der Aussentemperatur, bei dessen Unterschreitung
+Die Bivalenztemperatur ist der Wert der Außentemperatur, bei dessen Unterschreitung
 der Heizstab beim Heizbetrieb mithelfen darf. Eine falsche Einstellung kann da sehr
 teuer werden. Bei einem gut gedämmten Haus (z.B. KfW55) wird eigentlich bei ausreichender
 Auslegung der WP gar kein Heizstab benötigt, daher kann die Bivalenztemperatur auf -10°C
@@ -148,7 +148,7 @@ hochsetzen.
 
 Frostschutz ist dazu gedacht das Einfrieren der Heizung und Wasserleitungen im Haus zu
 verhindern. Bei Frostschutz=0 läuft dann die Heizung weiter (z.B. bei Bereitschaft läuft
-die Heizung auf min. Vorlauf also 25°C), wenn die Aussentemperatur nachts
+die Heizung auf min. Vorlauf also 25°C), wenn die Außentemperatur nachts
 knapp unter 0°C abfällt. Das macht vielleicht in einer wasserbeheizten Baracke ohne
 Wärmedämmung Sinn. In gut gedämmten Häusern, kann man z.B. auf -10 stellen. 
 
@@ -162,7 +162,7 @@ weiterlaufen lassen, evtl. bei abgesenktem Raum-Soll.
 ## Gebäudedämmung
 
 Bei Fußbodenheizung einfach auf **AUS** oder **Gering** stellen, damit die Heizung 
-auf veränderte Aussentemperaturen besser reagieren kann. 
+auf veränderte Außentemperaturen besser reagieren kann. 
 
 ## Flüstermodus
 
@@ -204,7 +204,7 @@ Der Heizstab (auch Backup-Heater BUH genannt) ist in den meisten Fällen der gr�
 häufig komplett unnötige, Stromverbraucher. Der Heizstab wird normalerwise eingesetzt:
 - Beim Abtauen
 - Nach einer Wartezeit bei WW Aufbereitung
-- Auch im Sommer wenn das Aussengerät über 35°C misst (daher Gerät verschatten)
+- Auch im Sommer wenn das Außengerät über 35°C misst (daher Gerät verschatten)
 
 Es können mehrere Anpassung vorgenommen werden um den Verbrauch des BUH zu reduzieren:
 1. Die drei Verbrauchstufen können angepasst werden
@@ -222,7 +222,7 @@ Strom zu sparen, z.B. auf 3,3,3.
 Für WW Aufbereitung ist es vermutlich besser den Heizstab über die Wartezeit ganz
 abzustellen. Die „Wartezeit ext. Wärmeerzeuger“ kann daher auf 90 Minuten erhöht werden.
 Liegt die "Max. Warmwasser Ladezeit" dadrunter (z.B. 60 min), springt der Heizstab nie
-an (ausser ggf. im Sommer bei über 35°C aussen).
+an (ausser ggf. im Sommer bei über 35°C außen).
 
 ### Heizstab AUS
 Der Heizstab ist ein optionaler Zusatz und kann technisch komplett auskonfiguriert
@@ -272,7 +272,7 @@ kurze Zeiträume wählen**
 ## Nachtabschaltung
 
 WW-Aufbereitung, Zirkulationspumpe und sogar die Heizung können in der Nacht über
-Zeitprogramme abgeschaltet werden. Da nachts die Aussentemperaturen meist niedriger sind,
+Zeitprogramme abgeschaltet werden. Da nachts die Außentemperaturen meist niedriger sind,
 und um viele Abtauzyklen zu vermeiden, macht eine Abschaltung viel Sinn. Bei guter
 Isolation des Hauses, kühlt es um ca 1/2 Grad ab. Falls eine Lüftungsanlage ohne
 Wärmerückgewinnung installiert ist (nicht gut!), sollte diese evtl. auch abgeschaltet 

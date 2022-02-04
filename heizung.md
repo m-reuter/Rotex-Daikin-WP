@@ -71,11 +71,36 @@ wieder eine Flüssigkeit, die am Kondensator die Wärme an das Heizwasser bzw. W
 
 Luft-Wasser Wärmepumpen entziehen dabei die Wärme aus der Luft, was selbst bei Minusgraden 
 noch recht gut funktioniert. Es ist nämlich auch unter 0°C noch erstaunlich viel Wärme 
-in der Luft. Leider kondensiert die Umgebungsluft bei ca (-2)-4°C an dem Aussengerät, 
+in der Luft. Leider kondensiert die Umgebungsluft bei ca (-2)-4°C an dem Außengerät, 
 was zu häufigen und ggf. teuren Abtauzyklen führen kann. Bei kälteren Temperaturen ist die
 Luft oft sehr trocken und bei höheren ist ein Abtauen nicht nötig, weil die Temperatur am 
-Aussengerät über 0°C bleibt. 
+Außengerät über 0°C bleibt. 
 
+### Arbeitszahl AZ und COP
+
+Die Arbeitszahl (AZ) einer Wärmepumpe gibt an wie viel Wärmeenergie bezogen
+auf den verbrauchten Strom tatsächlich hergestellt wird. Dabei ist z.B. die Jahresarbeitszahl
+(JAZ) der Durchschnitt über das ganze Jahr. Die JAZ hängt nicht nur von der Wärmepumpe 
+und ihren Einstellungen ab, sondern auch von der Außentemperatur, der Dämmung und Größe
+des Hauses und dem Duschverhalten der Bewohner. Daher kann die JAZ erst nach einem Jahr
+bestimmt werden und sollte so zwischen 3.5 und 4 liegen. 
+
+Bei der aktuellen Leistungszahl spricht man vom "Coefficient of Operation" (COP). Dieser
+hängt nur von der Wärmepumpe ab und besagt, wie gut sie es (abhängig von der Außentemperatur)
+schafft aus Strom Wärme zu erzeugen: 
+
+COP = Thermische_Leistung / Elektrische_Leistung
+
+Die elektrische Leistung kann man an einem Smart Meter ablesen oder messen, die thermische
+Leistung ergibt sich auch aus: 
+
+Thermische_Leistung = Spreizung x Volumenstrom(l/h) x 1,163
+
+Wobei die Spreizung einfach die Vorlauf- minus die Rücklauftemperatur ist und meist 
+zwischen 3 und 5 Grad liegt. Generell gilt, dass der COP bei niedrigen Außentemperaturen
+(unter 0°C) deutlich sinkt. Allerdings ist er im Sommer dauerhaft niedriger,
+da nur WW mit COP 3 aufbereitet wird, als in der Heizsaison wo er häufig 
+bei über 5 liegen kann. 
 
 ---
 
