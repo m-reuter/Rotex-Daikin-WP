@@ -302,5 +302,5 @@ einer [Smart-Home]({{ site.baseurl }}{% link smart-home.md %}) Anbindung realisi
 
 ---
 
-[Smart-Home]({{ site.baseurl }}{% link smart-home.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Weiter: Smart-Home]({{ site.baseurl }}{% link smart-home.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
