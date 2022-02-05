@@ -323,7 +323,7 @@ wirklich abschaltet (bei Frostschutz geht sie natürlich weiterhin an).
 In Frage kommt z.B. ein Computherm Q3 RF oder Q7 RF.  Ähnliches lässt sich auch mit
 einer [Smart-Home]({{ site.baseurl }}{% link smart-home.md %}) Anbindung realisieren.
 
-**Empfehlung: ein ext. Raum-Thermostat macht Sinn**
+**Empfehlung: ein ext. Raum-Thermostat oder Smart-Home Steuerung macht Sinn**
 
 
 ---
