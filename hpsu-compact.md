@@ -68,7 +68,7 @@ Ein weiterer Wert, die "Vorlauftemperatur Heizbetrieb" ist bei einer witterungsg
 Heizung irrelevant, da dieser Wert ja durch die Heizkurve (in Abhängigkeit von Raumsoll, 
 Heizkurve-Parameter, und Außentemperatur) berechnet wird und nicht konstant festgelegt wird. 
 
-**Empfehlungen:**
+**Einstellungen:**
 - Einzelraumregler auf
 - Witterungsgeführt
 - Raumsoll 21 (und später verschieben, wenn nötig)
@@ -93,7 +93,7 @@ Der Min. Vorlauf von 25°C verhindert das.
 Der Max Vorlauf sollte auf etwas oberhalb des Wertes einstellen, der maximal laut
 Heizkurve erwartet wird, oder z.B. einfach auf 55°C. 
 
-**Empfehlung: Min Vorlauf = 25, Max Vorlauf 55**
+**Einstellungen: Min Vorlauf = 25, Max Vorlauf 55**
 
 
 ## Warmwasser-Soll und Hysterese
@@ -112,7 +112,7 @@ laufender Frischwasser-Zirkulationspumpe (ca 1/2 Grad pro h), oder bei Abtauzykl
 Achtung: falsche Einstellungen an der Heizung (HZU, Continuous Heating) können viel Energie 
 entziehen, die meist über den Heizstab nachgeheizt wird. 
 
-**Empfehlung: WW-Soll 48, Hysterese: 5**
+**Einstellungen: WW-Soll 48, Hysterese: 5**
 
 ## Heizungsunterstützung (HZU)
 
@@ -121,7 +121,7 @@ Wärme aus dem Warmwassertank entnehmen kann. Diese Einstellung ist ggf. sinnvol
 der Speicher aus Solarthermie zusätzliche Energie bekommt 
 (und selbst da gehen die Meinungen auseinander).
  
-**Empfehlung: HZU: AUS** 
+**Einstellung: HZU: AUS** 
 
 Ein zusätzliches Problem mit „Heizungsunterstützung EIN“ gibt es in Verbindung mit
 Sperrzeiten fürs Warmwasser. Die Steuerung realisiert die Sperrzeit durch Absenkung der
@@ -145,7 +145,7 @@ man die 10-20min Pause beim Abtauen gar nicht merken. Ggf. ist diese Funktion f�
 Heizkörper und fehlender Dämmung im Haus sinnvoll (z.B. bei Vorlauftemperaturen > 35°C, 
 allerdings dann auch teuer).
 
-**Empfehlung: Continuous Heating: AUS** 
+**Einstellung: Continuous Heating: AUS** 
 
 ## Bivalenztemperatur
 
@@ -158,7 +158,7 @@ möchte benötigt da eine andere Einstellung, daher kann hier keine generelle Em
 gegeben werden. Ggf. einfach ausprobieren und bei Minusgraden wenns im Haus kalt wird,
 hochsetzen. 
 
-**Empfehlung: -10 bei gut gedämmten Haus und 6 oder 8 kW WP**
+**Einstellung: -10 bei gut gedämmten Haus und 6 oder 8 kW WP**
 
 ## Frostschutz
 
@@ -168,7 +168,7 @@ die Heizung auf min. Vorlauf also 25°C), wenn die Außentemperatur nachts
 knapp unter 0°C abfällt. Das macht vielleicht in einer wasserbeheizten Baracke ohne
 Wärmedämmung Sinn. In gut gedämmten Häusern, kann man z.B. auf -10 stellen. 
 
-**Empfehlung: -10 bei gut gedämmten Haus**
+**Einstellung: -10 bei gut gedämmten Haus**
 
 Diese Einstellung ist natürlich sicherheitsrelevant. Z.B. schaltet man die WP auf
 Bereitschaft und fährt für 10 Tage in den Urlaub und es bleibt in dieser Zeit konstant
@@ -202,7 +202,7 @@ da
 Daher sollte der Flüstermodus nur 
 nachts eingesetzt werden. Oder besser, man schaltet nachts ganz ab ([Nachtabschaltung](#nachtabschaltung)).
 
-**Empfehlung: Nachts auf Stufe 3** 
+**Einstellung: Nachts auf Stufe 3 (hoch)** 
 
 ## 1xWW
 
@@ -263,7 +263,7 @@ Notstopp passiert ist, da mit WW-Soll 48 und 4-5K Hysterese immer genug Wärme d
 sollte. Im Sommer kann es passieren, dass mittags bei sehr hohen Temperaturen kein WW
 aufbereitet wird, aber wer will da schon heiß duschen. 
 
-**Empfehlung: Ext. Leistung runtersetzen (3,3,3) und Max WW Ladezeit auf 90 Min**
+**Einstellungen: Ext. Leistung runtersetzen (3,3,3) und Max WW Ladezeit auf 90 Min**
 oder den Heizstab ganz abschalten. Sollte die WP (zu kleines Gerät?) das WW nicht in 1h
 warm bekommen, oder Haus wird kalt, kann man einfach den Heizstab wieder zulassen.
 
@@ -285,7 +285,7 @@ auf AUS ist! Genau umgekehrt als in der Betriebsanleitung. Wer das nicht weiß
 die Zirkulation auch in der Nacht durchlaufen, egal welches Zeitprogramm bei der 
 Zirkulation eingestellt ist. 
 
-**Empfehlung: Zirkulationspumpe Ansteuerung: AUS und dann im Zirkulationsprogramm 1-3
+**Einstellungen: Zirkulationspumpe Ansteuerung: AUS und dann im Zirkulationsprogramm 1-3
 kurze Zeiträume wählen**
 
 
@@ -306,7 +306,7 @@ Leider lässt sich die Heizung nachts über das Zeitprogramm nicht komplett auss
 schaltet die Heizung automatisch wieder ein! Die zweite Situation lässt sich immerhin
 mit einem externen Wohnraumthermostat vermeiden. 
 
-**Empfehlung: bei guter Dämmung alles nachts aus, Zirkulation und evtl. WW sogar länger**
+**Einstellungen: bei guter Dämmung alles nachts aus, Zirkulation und evtl. WW sogar länger**
 
 Bei schlechter Dämmung, sollte allerdings die Heizung weiterlaufen, da das Haus sonst zu
 sehr auskühlt, was auch an Fenstern oder Türen Feuchtigkeit und Schimmel verursachen 
