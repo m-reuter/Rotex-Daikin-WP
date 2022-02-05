@@ -325,6 +325,7 @@ einer [Smart-Home]({{ site.baseurl }}{% link smart-home.md %}) Anbindung realisi
 
 **Empfehlung: ein ext. Raum-Thermostat oder Smart-Home Steuerung macht Sinn**
 
+![HPSU Compact Ultra Board](/assets/images/ultra-board-ext.jpg)
 
 ---
 
