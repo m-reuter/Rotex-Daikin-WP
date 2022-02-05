@@ -22,7 +22,7 @@ Um Daten zu loggen und Geräte zu steuern ist ein kleiner Rechner notwendig, der
 permanent angeschaltet ist. Dazu eignet sich z.B. ein Raspberry Pi 4, wegen seines 
 niedrigen Stromverbrauchs, ausreichender Rechenleistung und RAM. 
 
-Es gibt etiliche Open Source Software für die Smart-Home Steuerung, z.B. 
+Es gibt etliche Open Source Software Projekte für die Smart-Home Steuerung, z.B. 
 [OpenHAB](https://www.openhab.org/), [FHEM](https://fhem.de/) etc. Hier empfehlen wir:
 
 [HomeAssistant](https://www.home-assistant.io/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
