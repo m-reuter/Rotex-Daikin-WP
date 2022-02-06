@@ -60,6 +60,8 @@ der die Heizkurve komplett nach oben oder unten verschiebt. Ist es also sowohl i
 Übergangszeit als auch im Winter zu warm oder zu kalt, muss dieser Parameter entsprechend
 angepasst werden. Meist liegt der Wert so bei 20 - 22.
 
+![HPSU Compact Ultra Heizkurven](/assets/images/rotex-heizkurven.jpg)
+
 Die Heizkurve wird über den "Heizkurve" Parameter gewählt. Diese Einstellung liegt meist
 bei 0,5 oder 0,4 (empfohlen für KfW55). Wenn es z.B. nur im Winter zu kalt ist, sollte 
 eher dieser Paramater erhöht werden, statt mit Raumsoll die ganze Kurve zu verschieben. 
