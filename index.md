@@ -32,16 +32,15 @@ Viele Informationen sind algemein hilfreich, aber konkrete Einstellungen sind f�
 
 bestimmt, wobei auch hier die meisten für das ältere Model ohne Zusatz "Ultra" sinnvoll sein können. 
 
-### Geplanter Inhalt
+### Inhalt
 
-- Heizungssystem
+- [Heizungssystem]({{ site.baseurl }}{% link heizung.md %})
   - Fußbodenheizung
-  - Hydraulischer Abgleich
   - Wärmepumpen
-- Einstellungen der HPSU compact (ultra)
-- Smart Home
+- [Einstellungen der HPSU compact (ultra)]({{ site.baseurl }}{% link hpsu-compact.md %})
+- [Smart Home]({{ site.baseurl }}{% link smart-home.md %})
   - Anbindung und Automatisierung
-  - Smart Grid und Photovoltaik
+  - Smart Grid und Photovoltaik (geplant)
 
 
 [Los geht's: Heizung]({{ site.baseurl }}{% link heizung.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
