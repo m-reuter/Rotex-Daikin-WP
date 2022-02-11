@@ -184,13 +184,14 @@ auf veränderte Außentemperaturen besser reagieren kann.
 
 ## Flüstermodus
 
-Flüstermodus im Nachtbetrieb ist durchaus sinnvoll. Bei der "Ultra" gibt es drei Stufen:
+Flüstermodus (Einstellungen->Spezial) im Nachtbetrieb ist durchaus sinnvoll. Bei der
+"Ultra" gibt es drei Einstellungen zum Geräuschlevel:
 
-1. Stufe: Keine Veränderungen erkennbar 
-2. Stufe: Reduktion der maximalen, elektrischen Verdichterleistung um ca. 13%
-3. Stufe: Zusätzlich Reduktion der Lüfterdrehzahl von max. 780U/min auf 680U/min
+1. Min. Geräuschreduktion: Keine Veränderungen erkennbar 
+2. Med. Geräuschreduktion: Reduktion der maximalen, elektrischen Verdichterleistung um ca. 13%
+3. Max. Geräuschreduktion: Zusätzlich Reduktion der Lüfterdrehzahl von max. 780U/min auf 680U/min
 
-In Stufe drei dürfte die 8kW-Version damit ungefähr der 6kW-Version entsprechen.
+Bei maximaler Reduktion dürfte die 8kW-Version damit ungefähr der 6kW-Version entsprechen.
 Die 13% niedrigere Verdichterleistung (elektrisch) kann durchaus 30% weniger thermische
 Leistung, also 6kW bedeuten. Das schont die WP und hat keinen erwähnenswerten Einfluss
 auf die Arbeitszahl (AZ).
@@ -203,8 +204,11 @@ da
 
 Daher sollte der Flüstermodus nur 
 nachts eingesetzt werden. Oder besser, man schaltet nachts ganz ab ([Nachtabschaltung](#nachtabschaltung)).
+Dabei sicherstellen, dass die Uhrzeit richtig eingestellt ist, damit "Nachts aktiv" auch wirklich 
+nachts ist. 
 
-**Einstellung: Nachts auf Stufe 3 (hoch)** 
+**Einstellung: Flüstermodus "Nachts aktiv" auf Max. Geräsuchreduktion** 
+
 
 ## 1xWW
 
@@ -303,7 +307,7 @@ oder runter gedreht werden damit das Haus nicht stärker auskühlt.
 Leider lässt sich die Heizung nachts über das Zeitprogramm nicht komplett ausschalten:
 
 1. falls die Frostschutzemperatur erreicht wird (selten)
-2. oder falls die Rücklauftemperatur unter 22 Grad sinkt (durchaus möglich)
+2. oder falls die Rücklauftemperatur unter 22°C sinkt (durchaus möglich)
 
 schaltet die Heizung automatisch wieder ein! Es wird nämlich ausserhalb der Heizzyklen auf
 "Raumtemperatur Absenken" geregelt (bzw. minimale Vorlauftemperatur).
