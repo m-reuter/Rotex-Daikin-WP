@@ -111,8 +111,8 @@ Faktoren ab (z.B Duschverhalten, Anzahl der Personen).
 Hinweis: Der WW-Speicher ist gut isoliert und verliert kaum Wärme. Wärme wird natürlich
 entnommen wenn Warmwasser genutzt wird (Händewaschen, Duschen, ...), aber auch bei
 laufender Frischwasser-Zirkulationspumpe (ca 1/2 Grad pro h), oder bei Abtauzyklen.
-Achtung: falsche Einstellungen an der Heizung (HZU, Continuous Heating) können viel Energie 
-entziehen, die meist über den Heizstab nachgeheizt wird. 
+Achtung: Ausserdem können falsche Einstellungen an der Heizung (HZU, Continuous Heating)
+viel Wärme aus dem Speicher entziehen, die meist teuer über den Heizstab nachgeheizt wird. 
 
 **Einstellungen: WW-Soll 48, Hysterese: 5**
 
@@ -126,7 +126,7 @@ der Speicher aus Solarthermie zusätzliche Energie bekommt
 **Einstellung: HZU: AUS** 
 
 Ein zusätzliches Problem mit „Heizungsunterstützung EIN“ gibt es in Verbindung mit
-Sperrzeiten fürs Warmwasser. Die Steuerung realisiert die Sperrzeit durch Absenkung der
+Sperrzeiten für's Warmwasser. Die Steuerung realisiert die Sperrzeit durch Absenkung der
 WW-Solltemperatur auf 35°C. Da der Speicher zu Beginn der Sperrzeit deutlich wärmer ist,
 wird er danach zugunsten der Heizung auf 35°C runtergekühlt. Nach der Sperrzeit muss das
 WW mühsam wieder hochgeheizt werden.
@@ -157,8 +157,8 @@ teuer werden. Bei einem gut gedämmten Haus (z.B. KfW55) wird eigentlich bei aus
 Auslegung der WP gar kein Heizstab benötigt, daher kann die Bivalenztemperatur auf -10°C
 oder sogar dadrunter festgelegt werden. Wer natürlich mit einem 4kW Gerät 200qm beheizen
 möchte benötigt da eine andere Einstellung, daher kann hier keine generelle Empfehlung 
-gegeben werden. Ggf. einfach ausprobieren und bei Minusgraden wenns im Haus kalt wird,
-hochsetzen. 
+gegeben werden. Ggf. einfach ausprobieren und bei Minusgraden, wenn es im Haus kalt wird,
+hoch setzen. 
 
 **Einstellung: -10 bei gut gedämmten Haus und 6 oder 8 kW WP**
 
@@ -196,7 +196,7 @@ Die 13% niedrigere Verdichterleistung (elektrisch) kann durchaus 30% weniger the
 Leistung, also 6kW bedeuten. Das schont die WP und hat keinen erwähnenswerten Einfluss
 auf die Arbeitszahl (AZ).
 
-Achtung: Es wurde vereinzelt berichtet dass ein Dauerbetrieb in Stufe 3 nicht sinnvoll ist, 
+Achtung: Es wurde vereinzelt berichtet dass ein Dauerbetrieb bei Max. Reduktion nicht sinnvoll ist, 
 da
 
 - i) die Heizung an kalten Tagen für das Haus dann zu schwach ist (evtl. muss aber nur die Heizkurve angepasst werden), und
