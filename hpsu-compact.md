@@ -199,13 +199,13 @@ auf die Arbeitszahl (AZ).
 Achtung: Es wurde vereinzelt berichtet dass ein Dauerbetrieb in Stufe 3 nicht sinnvoll ist, 
 da
 
-- i) die Heizung an kalten Tagen für das Haus zu schwach ist, und
-- ii) diese Einstellung zu häufigen, unnötigen Abtauzyklen führen kann.
+- i) die Heizung an kalten Tagen für das Haus dann zu schwach ist (evtl. muss aber nur die Heizkurve angepasst werden), und
+- ii) diese Einstellung zu häufigen, unnötigen Abtauzyklen führen kann (hängt möglicherweise von der Software Version ab).
 
-Daher sollte der Flüstermodus nur 
-nachts eingesetzt werden. Oder besser, man schaltet nachts ganz ab ([Nachtabschaltung](#nachtabschaltung)).
-Dabei sicherstellen, dass die Uhrzeit richtig eingestellt ist, damit "Nachts aktiv" auch wirklich 
-nachts ist. 
+Daher sollte der Flüstermodus nur nachts eingesetzt werden. Dabei sicherstellen, dass die
+Uhrzeit richtig eingestellt ist, damit "Nachts aktiv" auch wirklich 
+nachts ist. Oder besser, man schaltet nachts ganz ab ([Nachtabschaltung](#nachtabschaltung)).
+
 
 **Einstellung: Flüstermodus "Nachts aktiv" auf Max. Geräsuchreduktion** 
 
@@ -300,19 +300,24 @@ kurze Zeiträume wählen**
 WW-Aufbereitung, Zirkulationspumpe und sogar die Heizung können in der Nacht über
 Zeitprogramme abgeschaltet werden. Da nachts die Außentemperaturen meist niedriger sind,
 und um viele Abtauzyklen zu vermeiden, macht eine Abschaltung Sinn. Bei guter
-Isolation des Hauses, kühlt es um weniger als 1/2 Grad ab. Falls eine Lüftungsanlage ohne
+Isolation des Hauses, kühlt es um weniger als 1/2°C ab. Falls eine Lüftungsanlage ohne
 Wärmerückgewinnung installiert ist (nicht gut!), sollte diese evtl. auch abgeschaltet 
 oder runter gedreht werden damit das Haus nicht stärker auskühlt. 
 
-Leider lässt sich die Heizung nachts über das Zeitprogramm nicht komplett ausschalten:
+Achtung: Wer über das Zeitprogramm die WP nachts in den Absenkbetrieb versetzt, wird merken, 
+dass sie nachts durchaus wieder anspringt. Leider lässt sich die Heizung nachts über das
+Zeitprogramm nämlich nicht komplett ausschalten:
 
-1. falls die Frostschutzemperatur erreicht wird (selten)
+1. Falls draußen die Frostschutzemperatur unterschritten wird (selten)
 2. oder falls die Rücklauftemperatur unter 22°C sinkt (durchaus möglich)
 
 schaltet die Heizung automatisch wieder ein! Es wird nämlich ausserhalb der Heizzyklen auf
-"Raumtemperatur Absenken" geregelt (bzw. minimale Vorlauftemperatur).
-Das lässt sich immerhin mit einem externen Wohnraumthermostat vermeiden, das z.B. in der Nacht
-einfach programmgesteuert keine Wärme anfordert. 
+"Raumtemperatur Absenken" geregelt (bzw. minimale Vorlauftemperatur). Dabei läuft die Umwälzpumpe
+weiter, der Heizkreislauf kühlt langsam aus und sobald die Rücklauftemperatur 3 Grad unter
+den Vorlauf-Sollwert (z.B. 25 Grad min. Vorlauf, dann bei 22°C) fällt, schaltet sich die 
+Heizung wieder ein. 
+Das lässt sich nur mit einem externen Wohnraumthermostat oder Wlan Relais (siehe unten)
+vermeiden, das z.B. in der Nacht programmgesteuert keine Wärme anfordert. 
 
 **Einstellungen: bei guter Dämmung alles nachts aus, Zirkulation und evtl. WW sogar länger**
 
@@ -323,11 +328,11 @@ kann.
 ## Externes Raum-Thermostat
 
 Ein Externes Raum-Thermostat kann basierend auf der tatsächlichen Raumtemperatur in einem 
-Leitraum die WP-Heizung schalten. Dies ist hilfreich um in der Übergangszeit bei 
+Leitraum die WP-Heizung an und abschalten. Dies ist hilfreich um in der Übergangszeit bei 
 Sonneneinstrahlung ein Überheizen zu vermeiden. Ein Empfänger wird dabei über zwei Kabel
 an der WP angeschlossen (J16 Pin 1,2) und der Sender im Leitraum installiert.
-Darüber lässt sich auch ein Zeitprogramm einstellen, damit die WP z.B. in der Nacht 
-wirklich abschaltet (bei Frostschutz geht sie natürlich weiterhin an).
+In den meisten externen Thermostaten lässt sich auch ein Zeitprogramm einstellen, damit die WP z.B. in der Nacht 
+wirklich abgeschaltet bleibt (bei Frostschutz geht sie natürlich weiterhin an).
 In Frage kommt z.B. ein Computherm Q3 RF oder Q7 RF.  Ähnliches lässt sich auch mit
 einer [Smart-Home]({{ site.baseurl }}{% link smart-home.md %}) Anbindung realisieren.
 
