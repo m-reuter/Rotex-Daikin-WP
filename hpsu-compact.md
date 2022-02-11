@@ -296,7 +296,7 @@ kurze Zeiträume wählen**
 WW-Aufbereitung, Zirkulationspumpe und sogar die Heizung können in der Nacht über
 Zeitprogramme abgeschaltet werden. Da nachts die Außentemperaturen meist niedriger sind,
 und um viele Abtauzyklen zu vermeiden, macht eine Abschaltung Sinn. Bei guter
-Isolation des Hauses, kühlt es nur um ca 1/2 Grad ab. Falls eine Lüftungsanlage ohne
+Isolation des Hauses, kühlt es um weniger als 1/2 Grad ab. Falls eine Lüftungsanlage ohne
 Wärmerückgewinnung installiert ist (nicht gut!), sollte diese evtl. auch abgeschaltet 
 oder runter gedreht werden damit das Haus nicht stärker auskühlt. 
 
@@ -305,8 +305,10 @@ Leider lässt sich die Heizung nachts über das Zeitprogramm nicht komplett auss
 1. falls die Frostschutzemperatur erreicht wird (selten)
 2. oder falls die Rücklauftemperatur unter 22 Grad sinkt (durchaus möglich)
 
-schaltet die Heizung automatisch wieder ein! Die zweite Situation lässt sich immerhin
-mit einem externen Wohnraumthermostat vermeiden. 
+schaltet die Heizung automatisch wieder ein! Es wird nämlich ausserhalb der Heizzyklen auf
+"Raumtemperatur Absenken" geregelt (bzw. minimale Vorlauftemperatur).
+Das lässt sich immerhin mit einem externen Wohnraumthermostat vermeiden, das z.B. in der Nacht
+einfach programmgesteuert keine Wärme anfordert. 
 
 **Einstellungen: bei guter Dämmung alles nachts aus, Zirkulation und evtl. WW sogar länger**
 
@@ -320,7 +322,7 @@ Ein Externes Raum-Thermostat kann basierend auf der tatsächlichen Raumtemperatu
 Leitraum die WP-Heizung schalten. Dies ist hilfreich um in der Übergangszeit bei 
 Sonneneinstrahlung ein Überheizen zu vermeiden. Ein Empfänger wird dabei über zwei Kabel
 an der WP angeschlossen (J16 Pin 1,2) und der Sender im Leitraum installiert.
-Darüber lässt sich auch ein Zeitprogramm einstellen dass die WP z.B. in der Nacht 
+Darüber lässt sich auch ein Zeitprogramm einstellen, damit die WP z.B. in der Nacht 
 wirklich abschaltet (bei Frostschutz geht sie natürlich weiterhin an).
 In Frage kommt z.B. ein Computherm Q3 RF oder Q7 RF.  Ähnliches lässt sich auch mit
 einer [Smart-Home]({{ site.baseurl }}{% link smart-home.md %}) Anbindung realisieren.
