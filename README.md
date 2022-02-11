@@ -8,14 +8,18 @@ Wärmepumpen (WP) und Fußbodenheizungen sind inzwischen Standard bei Neubauten 
 Viele Informationen sind algemein hilfreich, aber konkrete Einstellungen sind für die 
 ROTEX HPSU compact Ultra / DAIKIN Altherma 3 R ECH2O bestimmt, wobei auch hier die meisten für das ältere Model ohne Zusatz "Ultra" sinnvoll sein können. 
 
-Geplanter Inhalt:
-- Einführung in WP und Fußbodenheizung
-- Hydraulischer Abgleich
-- Einstellungen der WP
+Inhalt:
+- Einführung in Fußbodenheizung, Einzelraumregelung, Abgleich, Wärmepumpe
+- Einstellungen der HPSU compact (Ultra)
 - Smart Home Anbindung und Automatisierung
-- Smart Grid und Photovoltaik
+- Smart Grid und Photovoltaik (geplant)
 
-Links:
+Die Webversion ist hier zu finden: 
+
+https://m-reuter.github.io/Rotex-Daikin-WP
+
+Weitere Links:
+- https://www.haustechnikdialog.de/Forum/p/3272084
 - https://fachportal.rotex-heating.com/technische-unterlagen/archiv/rotex-hpsu-compact-ultra.html
 - https://www.haustechnikdialog.de/Forum/t/226662/ROTEX-HPSU-compact-Ultra-ab-2018-Erfahrungen-Optimierung
 - https://www.waermepumpen-verbrauchsdatenbank.de
