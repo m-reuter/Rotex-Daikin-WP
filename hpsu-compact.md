@@ -92,7 +92,7 @@ berechnet, startet die WP nach einem Stopp erst wieder bei 24°-3°=21°C. Das d
 Bis das Heizwasser so weit abgekühlt ist, ist die Raumtemperatur schon ungemütlich kühl. 
 Der Min. Vorlauf von 25°C verhindert das. 
 
-Der Max Vorlauf sollte auf etwas oberhalb des Wertes einstellen, der maximal laut
+Der Max Vorlauf sollte auf etwas oberhalb des Wertes eingestellt werden, der maximal laut
 Heizkurve erwartet wird, oder z.B. einfach auf 55°C. 
 
 **Einstellungen: Min Vorlauf = 25, Max Vorlauf 55**
