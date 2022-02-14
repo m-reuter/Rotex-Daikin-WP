@@ -69,7 +69,7 @@ muss man dann den Raumsoll etwas absenken). Generell berechnet die WP die Soll-V
 (Tv) aus dem Raumsoll (Tr), der Heizkurve (k) und der Außentemperatur (Ta) näherungsweise so
 (für k <= 0.8):
 
-Tv = Tr - k (Ta - Tr) (1.2 + 0.01 (Ta - Tr))
+Tv = Tr + k (Tr - Ta) (1.2 - 0.01 (Tr - Ta))
 
 Diese "Vorlauftemperatur Heizbetrieb" kann auch direkt eingestellt werden, 
 ist bei witterungsgeführten Heizbetrieb aber irrelevant und wird ignoriert, da dieser
