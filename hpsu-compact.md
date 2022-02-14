@@ -64,11 +64,16 @@ angepasst werden. Meist liegt der Wert so bei 20 - 22.
 
 Die Heizkurve wird über den "Heizkurve" Parameter gewählt. Diese Einstellung liegt meist
 bei 0,5 oder 0,4 (empfohlen für KfW55). Wenn es z.B. nur im Winter zu kalt ist, sollte 
-eher dieser Paramater erhöht werden, statt mit Raumsoll die ganze Kurve zu verschieben. 
+eher dieser Paramater erhöht werden, statt mit Raumsoll die ganze Kurve zu verschieben (evtl.
+muss man dann den Raumsoll etwas absenken). Generell berechnet die WP die Soll-Vorlauftemperatur
+(Tv) aus dem Raumsoll (Tr), der Heizkurve (k) und der Außentemperatur (Ta) näherungsweise so
+(für k <= 0.8):
 
-Ein weiterer Wert, die "Vorlauftemperatur Heizbetrieb" ist bei einer witterungsgeführten
-Heizung irrelevant, da dieser Wert ja durch die Heizkurve (in Abhängigkeit von Raumsoll, 
-Heizkurve-Parameter, und Außentemperatur) berechnet wird und nicht konstant festgelegt wird. 
+Tv = Tr - k (Ta - Tr) (1.2 + 0.01 (Ta - Tr))
+
+Diese "Vorlauftemperatur Heizbetrieb" kann auch direkt eingestellt werden, 
+ist bei witterungsgeführten Heizbetrieb aber irrelevant und wird ignoriert, da dieser
+Wert ja automatisch berechnet wird. 
 
 **Einstellungen:**
 - Einzelraumregler auf
@@ -86,7 +91,7 @@ ist hier die Vorlauftemperatur Min! Diese sollte bei genau 25°C liegen. Dadrüb
 das Haus im Frühling oder Herbst zu warm, und bei einer Einstellung dadrunter
 funktioniert die WP nicht mehr richtig.
 Nach einem Stopp (z.B. nach WW Aufbereitung) springt die WP nämlich erst dann wieder an,
-wenn die Heizwassertemperatur 3K unter VL-Soll liegt (Reglereigenschaft, nicht veränderbar).
+wenn die Heizwassertemperatur (Rücklauf) 3 Grad unter VL-Soll liegt (Reglereigenschaft, nicht veränderbar).
 Wenn in der Übergangszeit die witterungsgeführte Heizkurve z.B. nur 24°C als Sollwert
 berechnet, startet die WP nach einem Stopp erst wieder bei 24°-3°=21°C. Das dauert „ewig“.
 Bis das Heizwasser so weit abgekühlt ist, ist die Raumtemperatur schon ungemütlich kühl. 
