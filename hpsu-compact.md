@@ -46,7 +46,7 @@ natürlich selbst verantwortlich.
 
 ## Raumsoll und Heizkurve
 
-Die Heizung sollte im Witterungsgeführten Betrieb laufen, damit sich die Heizleistung 
+Die Heizung sollte im witterungsgeführten Betrieb laufen, damit sich die Heizleistung 
 der Außentemperatur anpassen kann (Einstellung unter "Heizkreis Konfiguration")!
 
 Raumsoll und Heizkurve sind bei witterungsgeführter Heizung die beiden
@@ -55,7 +55,7 @@ Dabei ist es wichtig, dass zuvor die Fußbodenheizung richtig eingestellt wurde 
 die Einzelraumregler (fast) alle offen sind
 ([siehe Heizung]({{ site.baseurl }}{% link heizung.md %}))!
 
-Der Raumsoll ist nicht genau der Wert, der im Haus sein soll, sondern nur ein Parameter, 
+Der Raumsoll ist nicht genau die Temperatur, die im Haus erreicht werden soll, sondern nur ein Parameter, 
 der die Heizkurve komplett nach oben oder unten verschiebt. Ist es also sowohl in der
 Übergangszeit als auch im Winter zu warm oder zu kalt, muss dieser Parameter entsprechend
 angepasst werden. Meist liegt der Wert so bei 20 - 22.
@@ -63,9 +63,12 @@ angepasst werden. Meist liegt der Wert so bei 20 - 22.
 ![HPSU Compact Ultra Heizkurven](/assets/images/rotex-heizkurven.jpg)
 
 Die Heizkurve wird über den "Heizkurve" Parameter gewählt. Diese Einstellung liegt meist
-bei 0,5 oder 0,4 (empfohlen für KfW55). Wenn es z.B. nur im Winter zu kalt ist, sollte 
-eher dieser Paramater erhöht werden, statt mit Raumsoll die ganze Kurve zu verschieben (evtl.
-muss man dann den Raumsoll etwas absenken). Generell berechnet die WP die Soll-Vorlauftemperatur
+bei 0,5 oder 0,4 (empfohlen für KfW55) und beschreibt ungefähr die Steigung, mit der bei
+sinkenden Außentemperaturen die Heizkurve und somit der Vorlauf-Soll ansteigt. Wenn es z.B.
+hauptsächlich im Winter zu kalt ist, sollte 
+eher dieser Paramater erhöht werden, statt mit Raumsoll die ganze Kurve zu verschieben (vermutlich
+muss man dann allerdings gleichzeitig den Raumsoll etwas absenken). Generell berechnet
+die WP die Soll-Vorlauftemperatur
 (Tv) aus dem Raumsoll (Tr), der Heizkurve (k) und der Außentemperatur (Ta) näherungsweise so
 (für k <= 0.8):
 
@@ -128,7 +131,7 @@ Wärme aus dem Warmwassertank entnehmen kann. Diese Einstellung ist ggf. sinnvol
 der Speicher aus Solarthermie zusätzliche Energie bekommt 
 (und selbst da gehen die Meinungen auseinander).
  
-**Einstellung: HZU: AUS** 
+**Einstellung: HZU AUS** 
 
 Ein zusätzliches Problem mit „Heizungsunterstützung EIN“ gibt es in Verbindung mit
 Sperrzeiten für's Warmwasser. Die Steuerung realisiert die Sperrzeit durch Absenkung der
@@ -152,7 +155,7 @@ man die 10-20min Pause beim Abtauen gar nicht merken. Ggf. ist diese Funktion f�
 Heizkörper und fehlender Dämmung im Haus sinnvoll (z.B. bei Vorlauftemperaturen > 35°C, 
 allerdings dann auch teuer).
 
-**Einstellung: Continuous Heating: AUS** 
+**Einstellung: Continuous Heating AUS** 
 
 ## Bivalenztemperatur
 

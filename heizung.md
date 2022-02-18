@@ -83,6 +83,20 @@ was zu häufigen und ggf. teuren Abtauzyklen führen kann. Bei kälteren Tempera
 Luft oft sehr trocken und bei höheren ist ein Abtauen nicht nötig, weil die Temperatur am 
 Außengerät über 0°C bleibt. 
 
+### Begriffserklärungen
+
+- Vorlauftemperatur: Die Temperatur des Heizungswasser, das die Heizung losschickt.
+- Rücklauftemperatur: Die Temperatur des zurückkommenden Wassers.
+- Spreizung: Die Differenz aus Vorlauf und Rücklauf.
+- Volumenstrom: Wie viel l/h Wasser wird durch die Fußbodenheizung gepumpt.
+- Vorlauf-Soll: Die Temperatur die der Vorlauf eigentlich haben sollte. Die tatsächliche 
+Vorlauftemperatur kann dadrüber oder drunter liegen. Die Heizung versucht dann das System
+anzupassen um auf Vorlauf-Soll zu kommen. 
+- Warmwassertemperatur: Temperatur im WW Speicher. 
+- WW-Soll: Die Temperatur auf die der Speicher aufgeheizt werden soll. 
+- WW Hysterese: Die Temperaturdifferenz um die der WW Speicher sinken darf, bevor mit dem 
+Aufheizen begonnen wird. 
+
 ### Arbeitszahl AZ und COP
 
 Die Arbeitszahl (AZ) einer Wärmepumpe gibt an wie viel Wärmeenergie bezogen
