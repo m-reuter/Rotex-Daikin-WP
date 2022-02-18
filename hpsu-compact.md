@@ -25,7 +25,7 @@ arbeitet und meist mit niedrigeren Drehzahlen auskommt als das Vorgängermodel. 
 sind wohl einige Probleme am Außengerät beseitigt worden, die zu ständigen, größtenteils 
 unnötigen [Abtau-Vorgängen](https://www.haustechnikdialog.de/Forum/t/215735/Rotex-HPSU-Daikin-Abtaugeschaedigte) geführt hatten.
 
-Im Folgenden erklären und diskutieren wir die Einstellungen. Viele der informationen 
+Im Folgenden erklären und diskutieren wir die Einstellungen. Viele der Informationen 
 stammen aus dem [HPSU compact ultra Forum](https://www.haustechnikdialog.de/Forum/t/226662/ROTEX-HPSU-compact-Ultra-ab-2018-Erfahrungen-Optimierung)
 des Haustechnikdialogs. Ein Dank geht an die vielen Helfer dort!
 

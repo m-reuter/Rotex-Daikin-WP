@@ -53,7 +53,7 @@ des ESPAltherma Projekts.
 ## pyHPSU
 
 [pyHPSU](https://github.com/Spanni26/pyHPSU) ist eine Python basierte Software, die 
-mittels des CAN Bus mit der Rotex WP kommuniziert (allerdings nur Daten des Innengeräts
+mittels des CAN Bus mit der Rotex WP (J13) kommuniziert (allerdings nur Daten des Innengeräts
 sehen kann). Mit dieser Software können auch Befehle gesendet werden, z.B. um  
 die WW-Soll oder Raum-Soll Temperatur zu setzen. Benötigt wird ein CAN-Hat für den Raspberry Pi ([PiCan 2 Hat](https://raspberry-valley.azurewebsites.net/Raspberry-Pi-PICAN2-Hat/)).
 Auch gibt es bereits ein Add-On für 
