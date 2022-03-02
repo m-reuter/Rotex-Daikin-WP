@@ -74,9 +74,13 @@ die WP die Soll-Vorlauftemperatur
 
 Tv = Tr + k (Tr - Ta) (1.2 - 0.01 (Tr - Ta))
 
-Diese "Vorlauftemperatur Heizbetrieb" kann auch direkt eingestellt werden, 
+Die Heizkurven können auch einfach für die jeweils gewünschten Parameter bei
+[Google Collab](https://colab.research.google.com/drive/14acPvbYJsxPrfI-uV31RVuuL3fAwIgYZ?usp=sharing)
+geplottet werden. 
+
+Prinzipiell kann die "Vorlauftemperatur Heizbetrieb" Tv auch direkt eingestellt werden, 
 ist bei witterungsgeführten Heizbetrieb aber irrelevant und wird ignoriert, da dieser
-Wert ja automatisch berechnet wird. 
+Wert ja automatisch über die Heizkurve berechnet wird. 
 
 **Einstellungen:**
 - Einzelraumregler auf
@@ -274,8 +278,10 @@ Man kann ggf. durch eine kleinere WW-Hysterese (z.B. 3 Grad) entgegenwirken.
 Schaltet die Anlage doch mal ab, lässt sich der Heizstab ja schnell wieder aktivieren.
 Man muss nur drauf achten. Es sind zur Zeit keine Fälle bekannt wo so ein 
 Notstopp passiert ist, da mit WW-Soll 48 und 4-5K Hysterese immer genug Wärme da sein 
-sollte. Im Sommer kann es passieren, dass mittags bei sehr hohen Temperaturen kein WW
-aufbereitet wird, aber wer will da schon heiß duschen. 
+sollte. Es ist dabei dringend zu empfehlen, WW-Bereitung immer zuzulassen wenn auch geheizt
+werden darf, damit bei mehreren Abtauvorgängen zügig neues WW bereitet werden kann. 
+Im Sommer kann es übrigens bei abgeschaltetem Heizstab passieren, dass mittags bei sehr
+hohen Temperaturen kein WW aufbereitet wird, aber wer will da schon heiß duschen. 
 
 **Einstellungen: Ext. Leistung runtersetzen (3,3,3) und Max WW Ladezeit auf 90 Min**
 oder den Heizstab ganz abschalten. Sollte die WP (zu kleines Gerät?) das WW nicht in 1h
