@@ -196,8 +196,8 @@ auf veränderte Außentemperaturen besser reagieren kann.
 
 ## Flüstermodus
 
-Flüstermodus (Einstellungen->Spezial) im Nachtbetrieb ist durchaus sinnvoll. Bei der
-"Ultra" gibt es drei Einstellungen zum Geräuschlevel:
+Flüstermodus (Einstellungen->Spezial in der alten Software, über eigenes Zeitmenu in der neuen)
+hat bei der "Ultra" drei Einstellungen zum Geräuschlevel:
 
 1. Min. Geräuschreduktion: Keine Veränderungen erkennbar 
 2. Med. Geräuschreduktion: Reduktion der Lüfterdrehzahl, aber nicht des Verdichters
