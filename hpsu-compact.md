@@ -211,12 +211,11 @@ auf die Arbeitszahl (AZ).
 Achtung: Es wurde vereinzelt berichtet dass ein Dauerbetrieb bei Max. Reduktion nicht sinnvoll ist, 
 da
 
-- i) die Heizung an kalten Tagen für das Haus dann zu schwach ist (evtl. muss aber nur die Heizkurve angepasst werden), und
-- ii) diese Einstellung zu häufigen, unnötigen Abtauzyklen führen kann (hängt möglicherweise von der Software Version ab).
+- i) die Heizung an kalten Tagen für das Haus dann zu schwach ist (evtl. muss aber nur die Heizkurve angepasst werden)
+- ii) diese Einstellung zu häufigen, unnötigen Abtauzyklen führen kann (hängt möglicherweise von der Software Version ab)
+- iii) bei Aussentemperatur unter 5°C scheint die WP den Modus sowiso zu ignorieren (obwohl er weiter im Display angezeigt wird)
 
-Daher sollte der Flüstermodus nur nachts eingesetzt werden. Dabei sicherstellen, dass die
-Uhrzeit richtig eingestellt ist, damit "Nachts aktiv" auch wirklich 
-nachts ist. Oder besser, man schaltet nachts ganz ab ([Nachtabschaltung](#nachtabschaltung)).
+Evtl. besser, man schaltet nachts ganz ab ([Nachtabschaltung](#nachtabschaltung)). Dabei sicherstellen, dass die Uhrzeit richtig eingestellt ist, damit "Nachts aktiv" auch wirklich  nachts ist. 
 
 
 **Einstellung: Flüstermodus "Nachts aktiv" auf Max. Geräsuchreduktion** 
