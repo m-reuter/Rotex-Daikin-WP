@@ -200,25 +200,27 @@ Flüstermodus (Einstellungen->Spezial) im Nachtbetrieb ist durchaus sinnvoll. Be
 "Ultra" gibt es drei Einstellungen zum Geräuschlevel:
 
 1. Min. Geräuschreduktion: Keine Veränderungen erkennbar 
-2. Med. Geräuschreduktion: Reduktion der maximalen, elektrischen Verdichterleistung um ca. 13%
-3. Max. Geräuschreduktion: Zusätzlich Reduktion der Lüfterdrehzahl von max. 780U/min auf 680U/min
+2. Med. Geräuschreduktion: Reduktion der Lüfterdrehzahl, aber nicht des Verdichters
+3. Max. Geräuschreduktion: Zusätzlich Reduktion des Verdichters 
 
 Bei maximaler Reduktion dürfte die 8kW-Version damit ungefähr der 6kW-Version entsprechen.
 Die 13% niedrigere Verdichterleistung (elektrisch) kann durchaus 30% weniger thermische
-Leistung, also 6kW bedeuten. Das schont die WP und hat keinen erwähnenswerten Einfluss
+Leistung, also 6kW bedeuten. Das schont evtl. die WP und hat keinen erwähnenswerten Einfluss
 auf die Arbeitszahl (AZ).
 
 Achtung: Es wurde vereinzelt berichtet dass ein Dauerbetrieb bei Max. Reduktion nicht sinnvoll ist, 
-da
+da:
 
 - i) die Heizung an kalten Tagen für das Haus dann zu schwach ist (evtl. muss aber nur die Heizkurve angepasst werden)
-- ii) diese Einstellung zu häufigen, unnötigen Abtauzyklen führen kann (hängt möglicherweise von der Software Version ab)
-- iii) bei Aussentemperatur unter 5°C scheint die WP den Modus sowiso zu ignorieren (obwohl er weiter im Display angezeigt wird)
+- ii) diese Einstellung zu häufigen, unnötigen Abtauzyklen führen kann, da weniger Luftstrom zu kühlerer Lufttemperatur führt.
+- iii) bei Aussentemperatur unter 5°C scheint die WP den Modus sowiso zu ignorieren (obwohl er weiter im Display angezeigt wird). Evtl. wurde das in neueren Software Versionen so eingestellt, damit die unnötigen und teuren Abtauungen vermieden werden. 
 
-Evtl. besser, man schaltet nachts ganz ab ([Nachtabschaltung](#nachtabschaltung)). Dabei sicherstellen, dass die Uhrzeit richtig eingestellt ist, damit "Nachts aktiv" auch wirklich  nachts ist. 
+In anderen Worten im Winter wird der Flüstermodus ignoriert und im Sommer nützt er fast nichts. 
+Evtl. besser, man schaltet nachts ganz ab ([Nachtabschaltung](#nachtabschaltung)).
+Dabei bitte sicherstellen, dass die Uhrzeit richtig eingestellt ist, damit nachts auch wirklich nachts ist. 
 
 
-**Einstellung: Flüstermodus "Nachts aktiv" auf Max. Geräsuchreduktion** 
+**Einstellung: Flüstermodus nicht nutzen, oder halt ausprobieren** 
 
 
 ## 1xWW
