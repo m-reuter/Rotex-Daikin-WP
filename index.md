@@ -26,11 +26,11 @@ gerade die modernen WP sehr effizient arbeiten (mit einer Arbeitszahl, die meist
 dafür Strom benötigt wird). Falsche Einstellungen schaden dabei der Umwelt ohne einen
 Mehrwert für den Nutzer und sollten daher vermieden werden. 
 
-Viele Informationen sind algemein hilfreich, aber konkrete Einstellungen sind für die 
+Viele Informationen sind allgemein hilfreich, aber konkrete Einstellungen sind für die 
 
 [ROTEX HPSU compact Ultra / DAIKIN Altherma 3 R ECH2O (externer link)](https://fachportal.rotex-heating.com/technische-unterlagen/archiv/rotex-hpsu-compact-ultra.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
-bestimmt, wobei auch hier die meisten für das ältere Model ohne Zusatz "Ultra" sinnvoll sein können. 
+bestimmt (Jahre 2018 - 2022), wobei auch hier die meisten für das ältere Model ohne Zusatz "Ultra" sinnvoll sein können. Für neuere Modelle (ab Jahr 2022) mit neuer Menüführung und veränderter Software sind die Einstellung nur begrenzt hilfreich (siehe dazu die Links zum Haustechnikforum unten). 
 
 ### Inhalt
 
@@ -54,6 +54,8 @@ bestimmt, wobei auch hier die meisten für das ältere Model ohne Zusatz "Ultra"
 - [Haustechnik Forum HPSU compact ultra](https://www.haustechnikdialog.de/Forum/t/226662/ROTEX-HPSU-compact-Ultra-ab-2018-Erfahrungen-Optimierung)
 - [Verbrauchsdatenbank](https://www.waermepumpen-verbrauchsdatenbank.de)
 - [Haustechnik Forum A-Z](https://www.haustechnikdialog.de/SHKwissen/A-Z/A)
+- [Haustechnik Forum Altherma 3 R ECH2 O neue Bedienoberfläche 2022](https://www.haustechnikdialog.de/Forum/t/253939/Erfahrungen-Daikin-Altherma-3-R-ECH2-O-neue-Bedienoberflaeche-2022)
+- [Haustechnik Forum HPSU compact (älteres Model)](https://www.haustechnikdialog.de/Forum/t/122535/Rotex-HPSU-compact-Betriebserfahrungen-gesucht-)
 - [Diese Seite auf GitHub](https://github.com/m-reuter/Rotex-Daikin-WP)
 
 ### Hilf mit!
