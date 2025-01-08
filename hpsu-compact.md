@@ -83,13 +83,13 @@ ist bei witterungsgeführten Heizbetrieb aber irrelevant und wird ignoriert, da 
 Wert ja automatisch über die Heizkurve abhängig von der gemessenen Außentemperatur berechnet wird. 
 
 {: .note-title }
-> Einstellungen
->
-> - Einzelraumregler auf
-> - Witterungsgeführt
-> - Raumsoll 21 (und später verschieben, wenn nötig)
-> - Heizkurve 0,4 (auch bei Bedarf anpassen)
-> - Vorlauftemperatur Heizbetrieb: egal, wird ignoriert
+Einstellungen
+
+- Einzelraumregler auf
+- Witterungsgeführt
+- Raumsoll 21 (und später verschieben, wenn nötig)
+- Heizkurve 0,4 (auch bei Bedarf anpassen)
+- Vorlauftemperatur Heizbetrieb: egal, wird ignoriert
 
 
 ## Vorlauftemperatur Min und Max
