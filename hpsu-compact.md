@@ -82,12 +82,14 @@ Prinzipiell kann die "Vorlauftemperatur Heizbetrieb" Tv auch direkt eingestellt 
 ist bei witterungsgeführten Heizbetrieb aber irrelevant und wird ignoriert, da dieser
 Wert ja automatisch über die Heizkurve abhängig von der gemessenen Außentemperatur berechnet wird. 
 
-**Einstellungen:**
-- Einzelraumregler auf
-- Witterungsgeführt
-- Raumsoll 21 (und später verschieben, wenn nötig)
-- Heizkurve 0,4 (auch bei Bedarf anpassen)
-- Vorlauftemperatur Heizbetrieb: egal, wird ignoriert
+{: .note-title }
+> Einstellungen
+>
+> - Einzelraumregler auf
+> - Witterungsgeführt
+> - Raumsoll 21 (und später verschieben, wenn nötig)
+> - Heizkurve 0,4 (auch bei Bedarf anpassen)
+> - Vorlauftemperatur Heizbetrieb: egal, wird ignoriert
 
 
 ## Vorlauftemperatur Min und Max
