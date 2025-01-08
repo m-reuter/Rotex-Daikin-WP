@@ -80,7 +80,7 @@ geplottet werden.
 
 Prinzipiell kann die "Vorlauftemperatur Heizbetrieb" Tv auch direkt eingestellt werden, 
 ist bei witterungsgeführten Heizbetrieb aber irrelevant und wird ignoriert, da dieser
-Wert ja automatisch über die Heizkurve berechnet wird. 
+Wert ja automatisch über die Heizkurve abhängig von der gemessenen Außentemperatur berechnet wird. 
 
 **Einstellungen:**
 - Einzelraumregler auf
