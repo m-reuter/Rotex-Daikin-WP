@@ -1,4 +1,7 @@
 title: "Rotex-Daikin-WP"
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
+
+url: https://m-reuter.github.io/Rotex-Daikin-WP
+
 color_scheme: "dark"
 search_enabled: true
