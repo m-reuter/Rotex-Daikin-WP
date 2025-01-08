@@ -78,7 +78,7 @@ wieder eine Flüssigkeit, die am Kondensator die Wärme an das Heizwasser bzw. W
 
 Luft-Wasser Wärmepumpen entziehen dabei die Wärme aus der Luft, was selbst bei Minusgraden 
 noch recht gut funktioniert. Es ist nämlich auch unter 0°C noch erstaunlich viel Wärme 
-in der Luft. Leider kondensiert die Umgebungsluft bei ca (-2)-4°C an dem Außengerät, 
+in der Luft. Leider kondensiert die Umgebungsluft bei ca. -2°C bis +4°C an dem Außengerät, 
 was zu häufigen und ggf. teuren Abtauzyklen führen kann. Bei kälteren Temperaturen ist die
 Luft oft sehr trocken und bei höheren ist ein Abtauen nicht nötig, weil die Temperatur am 
 Außengerät über 0°C bleibt. 
