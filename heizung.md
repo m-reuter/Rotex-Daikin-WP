@@ -104,10 +104,12 @@ auf den verbrauchten Strom tatsächlich hergestellt wird. Dabei ist z.B. die Jah
 (JAZ) der Durchschnitt über das ganze Jahr. Die JAZ hängt nicht nur von der Wärmepumpe 
 und ihren Einstellungen ab, sondern auch von der Außentemperatur, der Dämmung und Größe
 des Hauses und dem Duschverhalten der Bewohner. Daher kann die JAZ erst nach einem Jahr
-bestimmt werden und sollte so zwischen 3.5 und 4 liegen. 
+bestimmt werden und sollte mindestens zwischen 3.5 und 4 liegen. Bei einer gut eingestellten
+Daikin schaffen wir Werte über 4.5, das heißt, es wird vier einhalb mal so viel Wärmeenergie
+hergestellt wie an Strom eingesetzt wird. 
 
 Bei der aktuellen Leistungszahl spricht man vom "Coefficient of Operation" (COP). Dieser
-hängt nur von der Wärmepumpe ab und besagt, wie gut sie es (abhängig von der Außentemperatur)
+hängt von der Wärmepumpe ab und besagt, wie gut sie es (abhängig von der Außentemperatur)
 schafft aus Strom Wärme zu erzeugen: 
 
 COP = Thermische_Leistung / Elektrische_Leistung
