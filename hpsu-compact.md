@@ -30,7 +30,7 @@ Im Folgenden erklären und diskutieren wir die Einstellungen. Viele der Informat
 stammen aus dem [HPSU compact ultra Forum](https://www.haustechnikdialog.de/Forum/t/226662/ROTEX-HPSU-compact-Ultra-ab-2018-Erfahrungen-Optimierung)
 des Haustechnikdialogs. Ein Dank geht an die vielen Helfer dort!
 
-{: .note }
+{: .highlight }
 Wichtig, diese Einstellungen beziehen sich auf die HPSU Compact Ultra in den 4kW, 6kW und 8kW Größen (mit R32 eingeführter Steuerung). Viele Einstellungen sind aber vermutlich auch bei anderen Modellen sinnvoll. 
 
 
@@ -72,7 +72,9 @@ die WP die Soll-Vorlauftemperatur
 (Tv) aus dem Raumsoll (Tr), der Heizkurve (k) und der Außentemperatur (Ta) näherungsweise so
 (für k <= 0.8):
 
+```
 Tv = Tr + k (Tr - Ta) (1.2 - 0.01 (Tr - Ta))
+```
 
 Die Heizkurven können auch einfach für die jeweils gewünschten Parameter bei
 [Google Collab](https://colab.research.google.com/drive/14acPvbYJsxPrfI-uV31RVuuL3fAwIgYZ?usp=sharing)
@@ -82,7 +84,7 @@ Prinzipiell kann die "Vorlauftemperatur Heizbetrieb" Tv auch direkt eingestellt 
 ist bei witterungsgeführten Heizbetrieb aber irrelevant und wird ignoriert, da dieser
 Wert ja automatisch über die Heizkurve abhängig von der gemessenen Außentemperatur berechnet wird. 
 
-{: .important-title }
+{: .highlight }
 > **Einstellungen**
 > 
 > - Einzelraumregler auf
@@ -109,7 +111,7 @@ Der Min. Vorlauf von 25°C verhindert das.
 Der Max Vorlauf sollte auf etwas oberhalb des Wertes eingestellt werden, der maximal laut
 Heizkurve erwartet wird, oder z.B. einfach auf 55°C. 
 
-{: .important-title }
+{: .highlight }
 > **Einstellungen**
 > 
 > Min Vorlauf: 25
@@ -132,7 +134,7 @@ laufender Frischwasser-Zirkulationspumpe (ca 1/2 Grad pro h), oder bei Abtauzykl
 Achtung: Ausserdem können falsche Einstellungen an der Heizung (HZU, Continuous Heating)
 viel Wärme aus dem Speicher entziehen, die meist teuer über den Heizstab nachgeheizt wird. 
 
-{: .important-title }
+{: .highlight }
 > **Einstellungen**
 >
 > WW-Soll: 48
@@ -146,7 +148,7 @@ Wärme aus dem Warmwassertank entnehmen kann. Diese Einstellung ist ggf. sinnvol
 der Speicher aus Solarthermie zusätzliche Energie bekommt 
 (und selbst da gehen die Meinungen auseinander).
 
-{: .important-title }
+{: .highlight }
 > **Einstellung**
 >
 > HZU: AUS (erfordert Neustart!)
@@ -173,7 +175,7 @@ man die 10-20min Pause beim Abtauen gar nicht merken. Ggf. ist diese Funktion f�
 Heizkörper und fehlender Dämmung im Haus sinnvoll (z.B. bei Vorlauftemperaturen > 35°C, 
 allerdings dann auch teuer).
 
-{: .important-title }
+{: .highlight }
 > **Einstellung**
 >
 > Continuous Heating: AUS
@@ -189,7 +191,7 @@ möchte benötigt da eine andere Einstellung, daher kann hier keine generelle Em
 gegeben werden. Ggf. einfach ausprobieren und bei Minusgraden, wenn es im Haus kalt wird,
 hoch setzen. 
 
-{: .important-title }
+{: .highlight }
 > **Einstellung**
 >
 > Bivalenztemperatur: -10 bei gut gedämmten Haus und 6 oder 8 kW WP
@@ -202,7 +204,7 @@ die Heizung auf min. Vorlauf also 25°C), wenn die Außentemperatur nachts
 knapp unter 0°C abfällt. Das macht vielleicht in einer wasserbeheizten Baracke ohne
 Wärmedämmung Sinn. In gut gedämmten Häusern, kann man z.B. auf -10 stellen. 
 
-{: .important-title }
+{: .highlight }
 > **Einstellung**
 > 
 > Frostschutz: -10 bei gut gedämmten Haus
@@ -217,7 +219,7 @@ weiterlaufen lassen, evtl. bei abgesenktem Raum-Soll.
 Bei Fußbodenheizung einfach auf **AUS** oder **Gering** stellen, damit die Heizung 
 auf veränderte Außentemperaturen besser reagieren kann.
 
-{: .important-title }
+{: .highlight }
 > **Einstellung**
 >
 > Gebäudedämmung: AUS (oder Gering)
@@ -247,7 +249,7 @@ In anderen Worten im Winter wird der Flüstermodus ignoriert und im Sommer nütz
 Evtl. besser, man schaltet nachts ganz ab ([Nachtabschaltung](#nachtabschaltung)).
 Dabei bitte sicherstellen, dass die Uhrzeit richtig eingestellt ist, damit nachts auch wirklich nachts ist. 
 
-{: .important-title }
+{: .highlight }
 > **Einstellung**
 >
 > Flüstermodus: nicht nutzen, oder halt ausprobieren
@@ -258,12 +260,11 @@ Die Menüfunktion 1xWW sollte nicht genutzt werden um schnell das WW aufzuheizen
 Funktion bedient sich leider ausschließlich des Heizstabs. Ist also teuer und bei
 deaktiviertem Heizstab ohne Funktion. 
 
-{: .important-title }
+{: .highlight }
 > **Empfehlung**
 >
 > 1xWW: Nicht nutzen
 
-{: .note }
 Besser: Die WW-Bereitung kann angestoßen werden, indem man die WW-Solltemperatur im
 Reglermenü kurz hochstellt (1 grad über Hysterese Differenz). Sobald die Anlage den
 WW-Modus gestartet hat (<1 Minute) kann man wieder auf den ursprünglichen Sollwert
@@ -317,7 +318,7 @@ werden darf, damit bei mehreren Abtauvorgängen zügig neues WW bereitet werden 
 Im Sommer kann es übrigens bei abgeschaltetem Heizstab passieren, dass mittags bei sehr
 hohen Temperaturen kein WW aufbereitet wird, aber wer will da schon heiß duschen. 
 
-{: .important-title }
+{: .highlight }
 > **Einstellungen**
 >
 > Ext. Leistung runtersetzen (3,3,3)
@@ -346,7 +347,7 @@ auf AUS ist! Genau umgekehrt als in der Betriebsanleitung. Wer das nicht weiß
 die Zirkulation auch in der Nacht durchlaufen, egal welches Zeitprogramm bei der 
 Zirkulation eingestellt ist. 
 
-{: .important-title }
+{: .highlight }
 > **Einstellungen**
 >
 > Zirkulationspumpe Ansteuerung: AUS
@@ -362,10 +363,8 @@ Isolation des Hauses, kühlt es um weniger als 1/2°C ab. Falls eine Lüftungsan
 Wärmerückgewinnung installiert ist (nicht gut!), sollte diese evtl. auch abgeschaltet 
 oder runter gedreht werden damit das Haus nicht stärker auskühlt. 
 
-{: .note }
-Achtung: Wer über das Zeitprogramm die WP nachts in den Absenkbetrieb versetzt, wird merken, 
-dass sie nachts durchaus wieder anspringt. Leider lässt sich die Heizung nachts über das
-Zeitprogramm nämlich nicht komplett ausschalten:
+{: .highlight }
+Achtung: Wer über das Zeitprogramm die WP nachts in den Absenkbetrieb versetzt, wird merken, dass sie nachts durchaus wieder anspringt. Leider lässt sich die Heizung nachts über das Zeitprogramm nämlich nicht komplett ausschalten:
 
 1. Falls draußen die Frostschutzemperatur unterschritten wird (selten)
 2. oder falls die Rücklauftemperatur unter 22°C sinkt (durchaus möglich)
@@ -378,7 +377,7 @@ Heizung wieder ein.
 Das lässt sich nur mit einem externen Wohnraumthermostat oder Wlan Relais (siehe unten)
 vermeiden, das z.B. in der Nacht programmgesteuert keine Wärme anfordert. 
 
-{: .important-title }
+{: .highlight }
 > **Einstellungen**
 >
 > Nachtabschaltung: bei guter Dämmung alles nachts aus
@@ -400,7 +399,7 @@ wirklich abgeschaltet bleibt (bei Frostschutz geht sie natürlich weiterhin an).
 In Frage kommt z.B. ein Computherm Q3 RF oder Q7 RF.  Ähnliches lässt sich auch mit
 einer [Smart-Home]({{ site.baseurl }}{% link smart-home.md %}) Anbindung realisieren.
 
-{: .important-title }
+{: .highlight }
 > **Empfehlung**
 >
 > Ext. Raum-Thermostat oder Smart-Home Steuerung macht Sinn
