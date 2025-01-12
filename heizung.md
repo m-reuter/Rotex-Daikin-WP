@@ -30,6 +30,7 @@ Hier, sowie für die Planung der Wärmepumpe ist professionelle Beratung nötig.
 ### Einzelraumregelung ERR
 
 
+{: .highlight }
 **Dieser Punkt ist sehr wichtig für ein effizientes Heizen !!**
 
 Normalerweise werden für jeden Heizkreis automatische Regler auf die Ventile in den Verteilerschränken
