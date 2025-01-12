@@ -40,7 +40,7 @@ erreicht ist, wird der Heizkreis geschlossen, bei Unterschreiten wieder geöffne
 All das hat viele Nachteile und sollte bei einem trägen 
 System vermieden werden. Erstens verbrauchen die Ventile Strom (immer in der geöffneten oder
 geschlossenen Stellung, abhängig vom Ventil, und zwar evtl. das ganze Jahr!). Zweitens ist
-es für die Wärmepumpe Gift, wenn ständig irgendwo Ventile auf und zu gehen. Viele Räume pendeln
+es für die Wärmepumpe schlecht, wenn ständig irgendwo Ventile auf und zu gehen. Viele Räume pendeln
 permanent hin und her, andere bleiben ganz aus. Meist heizen dadurch die Nachbarräume mit, was sehr ineffizient ist. 
 
 Es sollte unbedingt darauf geachtet werden, dass (fast) alle Ventile (also ERR) immer 
@@ -115,15 +115,20 @@ Bei der aktuellen Leistungszahl spricht man vom "Coefficient of Operation" (COP)
 hängt von der Wärmepumpe ab und besagt, wie gut sie es (abhängig von der Außentemperatur)
 schafft aus Strom Wärme zu erzeugen: 
 
+```
 COP = Thermische_Leistung / Elektrische_Leistung
+```
+
 
 Die elektrische Leistung kann man an einem Smart Meter ablesen oder messen, die thermische
 Leistung ergibt sich auch aus: 
 
+```
 Thermische_Leistung = Spreizung x Volumenstrom(l/h) x 1,163
+```
 
 Wobei die Spreizung einfach die Vorlauf- minus die Rücklauftemperatur ist und meist 
-zwischen 3 und 5 Grad liegt. Generell gilt, dass der COP bei niedrigen Außentemperaturen
+zwischen 3°C und 5°C liegt. Generell gilt, dass der COP bei niedrigen Außentemperaturen
 (unter 0°C) deutlich sinkt. Allerdings ist er im Sommer dauerhaft niedriger,
 da nur WW mit COP 3 aufbereitet wird, als in der Heizsaison wo er häufig 
 bei über 5 liegen kann. 
