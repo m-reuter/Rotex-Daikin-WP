@@ -14,8 +14,6 @@ Leider sind sie das selten. Diese Seiten können dir helfen, das zu ändern.
 {: .fs-6 .fw-300 }
  
 ---
-{: .note }
-A paragraph
 
 ### Wärmepumpen
 
