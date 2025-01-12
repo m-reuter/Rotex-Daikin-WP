@@ -85,7 +85,7 @@ ist bei witterungsgeführten Heizbetrieb aber irrelevant und wird ignoriert, da 
 Wert ja automatisch über die Heizkurve abhängig von der gemessenen Außentemperatur berechnet wird. 
 
 {: .highlight }
-> **Einstellungen**
+> **Einstellungen:**
 > 
 > - Einzelraumregler auf
 > - Witterungsgeführt
@@ -112,11 +112,10 @@ Der Max Vorlauf sollte auf etwas oberhalb des Wertes eingestellt werden, der max
 Heizkurve erwartet wird, oder z.B. einfach auf 55°C. 
 
 {: .highlight }
-> **Einstellungen**
+> **Einstellungen:**
 > 
-> Min Vorlauf: 25
-> 
-> Max Vorlauf: 55
+> - Min Vorlauf: 25
+> - Max Vorlauf: 55
 
 ## Warmwasser-Soll und Hysterese
 
@@ -135,11 +134,10 @@ Achtung: Ausserdem können falsche Einstellungen an der Heizung (HZU, Continuous
 viel Wärme aus dem Speicher entziehen, die meist teuer über den Heizstab nachgeheizt wird. 
 
 {: .highlight }
-> **Einstellungen**
+> **Einstellungen:**
 >
-> WW-Soll: 48
-> 
-> Hysterese: 5
+> - WW-Soll: 48
+> - Hysterese: 5
 
 ## Heizungsunterstützung (HZU)
 
@@ -149,9 +147,9 @@ der Speicher aus Solarthermie zusätzliche Energie bekommt
 (und selbst da gehen die Meinungen auseinander).
 
 {: .highlight }
-> **Einstellung**
+> **Einstellung:**
 >
-> HZU: AUS (erfordert Neustart!)
+> - HZU: AUS (erfordert Neustart!)
 
 Ein zusätzliches Problem mit „Heizungsunterstützung EIN“ gibt es in Verbindung mit
 Sperrzeiten für's Warmwasser. Die Steuerung realisiert die Sperrzeit durch Absenkung der
@@ -176,9 +174,9 @@ Heizkörper und fehlender Dämmung im Haus sinnvoll (z.B. bei Vorlauftemperature
 allerdings dann auch teuer).
 
 {: .highlight }
-> **Einstellung**
+> **Einstellung:**
 >
-> Continuous Heating: AUS
+> - Continuous Heating: AUS
 
 ## Bivalenztemperatur
 
@@ -192,9 +190,9 @@ gegeben werden. Ggf. einfach ausprobieren und bei Minusgraden, wenn es im Haus k
 hoch setzen. 
 
 {: .highlight }
-> **Einstellung**
+> **Einstellung:**
 >
-> Bivalenztemperatur: -10 bei gut gedämmten Haus und 6 oder 8 kW WP
+> - Bivalenztemperatur: -10 bei gut gedämmten Haus und 6 oder 8 kW WP
 
 ## Frostschutz
 
@@ -205,9 +203,9 @@ knapp unter 0°C abfällt. Das macht vielleicht in einer wasserbeheizten Baracke
 Wärmedämmung Sinn. In gut gedämmten Häusern, kann man z.B. auf -10 stellen. 
 
 {: .highlight }
-> **Einstellung**
+> **Einstellung:**
 > 
-> Frostschutz: -10 bei gut gedämmten Haus
+> - Frostschutz: -10 bei gut gedämmten Haus
 
 Diese Einstellung ist natürlich sicherheitsrelevant. Z.B. schaltet man die WP auf
 Bereitschaft und fährt für 10 Tage in den Urlaub und es bleibt in dieser Zeit konstant
@@ -220,9 +218,9 @@ Bei Fußbodenheizung einfach auf **AUS** oder **Gering** stellen, damit die Heiz
 auf veränderte Außentemperaturen besser reagieren kann.
 
 {: .highlight }
-> **Einstellung**
+> **Einstellung:**
 >
-> Gebäudedämmung: AUS (oder Gering)
+> - Gebäudedämmung: AUS (oder Gering)
 
 ## Flüstermodus
 
@@ -250,9 +248,9 @@ Evtl. besser, man schaltet nachts ganz ab ([Nachtabschaltung](#nachtabschaltung)
 Dabei bitte sicherstellen, dass die Uhrzeit richtig eingestellt ist, damit nachts auch wirklich nachts ist. 
 
 {: .highlight }
-> **Einstellung**
+> **Einstellung:**
 >
-> Flüstermodus: nicht nutzen, oder halt ausprobieren
+> - Flüstermodus: nicht nutzen, oder halt ausprobieren
 
 ## 1xWW
 
@@ -261,9 +259,9 @@ Funktion bedient sich leider ausschließlich des Heizstabs. Ist also teuer und b
 deaktiviertem Heizstab ohne Funktion. 
 
 {: .highlight }
-> **Empfehlung**
+> **Empfehlung:**
 >
-> 1xWW: Nicht nutzen
+> - 1xWW: Nicht nutzen
 
 Besser: Die WW-Bereitung kann angestoßen werden, indem man die WW-Solltemperatur im
 Reglermenü kurz hochstellt (1 grad über Hysterese Differenz). Sobald die Anlage den
@@ -300,8 +298,9 @@ an (ausser ggf. im Sommer bei über 35°C außen).
 Der Heizstab ist ein optionaler Zusatz und kann technisch komplett auskonfiguriert
 werden über:
 
-{: .highlight }
+```
 „Einstellungen“ => „Ext. Quelle“ => „Konfig. externe Wärmequelle“
+```
 
 Nur so kann die Nutzung des Heizstabes beim Abtauen (und im Sommer) vermieden werden.
 Jeder Abtauvorgang zieht den Speicher dann um ca 1-2 Grad runter.
@@ -319,11 +318,10 @@ Im Sommer kann es übrigens bei abgeschaltetem Heizstab passieren, dass mittags 
 hohen Temperaturen kein WW aufbereitet wird, aber wer will da schon heiß duschen. 
 
 {: .highlight }
-> **Einstellungen**
+> **Einstellungen_**
 >
-> Ext. Leistung runtersetzen (3,3,3)
->
-> Max WW Ladezeit auf 90 Min
+> - Ext. Leistung runtersetzen (3,3,3)
+> - Max WW Ladezeit auf 90 Min
 
 oder den Heizstab ganz abschalten. Das bringt am meißten. Sollte die WP (zu kleines Gerät?)
 das WW nicht in 1h warm bekommen, oder Haus wird kalt, kann man einfach den Heizstab wieder
@@ -348,11 +346,10 @@ die Zirkulation auch in der Nacht durchlaufen, egal welches Zeitprogramm bei der
 Zirkulation eingestellt ist. 
 
 {: .highlight }
-> **Einstellungen**
+> **Einstellungen:**
 >
-> Zirkulationspumpe Ansteuerung: AUS
-> 
-> Zirkulationsprogramm 1-3: kurze Zeiträume wählen
+> - Zirkulationspumpe Ansteuerung: AUS
+> - Zirkulationsprogramm 1-3: kurze Zeiträume wählen
 
 ## Nachtabschaltung
 
@@ -378,11 +375,10 @@ Das lässt sich nur mit einem externen Wohnraumthermostat oder Wlan Relais (sieh
 vermeiden, das z.B. in der Nacht programmgesteuert keine Wärme anfordert. 
 
 {: .highlight }
-> **Einstellungen**
+> **Einstellungen:**
 >
-> Nachtabschaltung: bei guter Dämmung alles nachts aus
->
-> Zirkulation und evtl. WW sogar länger
+> - Nachtabschaltung: bei guter Dämmung alles nachts aus
+> - Zirkulation und evtl. WW sogar länger
 
 Bei schlechter Dämmung, sollte allerdings die Heizung weiterlaufen, da das Haus sonst zu
 sehr auskühlt, was auch an Fenstern oder Türen Feuchtigkeit und Schimmel verursachen 
@@ -400,9 +396,9 @@ In Frage kommt z.B. ein Computherm Q3 RF oder Q7 RF.  Ähnliches lässt sich auc
 einer [Smart-Home]({{ site.baseurl }}{% link smart-home.md %}) Anbindung realisieren.
 
 {: .highlight }
-> **Empfehlung**
+> **Empfehlung:**
 >
-> Ext. Raum-Thermostat oder Smart-Home Steuerung macht Sinn
+> - Ext. Raum-Thermostat oder Smart-Home Steuerung macht Sinn
 
 ![HPSU Compact Ultra Board]({{ site.baseurl }}/assets/images/ultra-board-ext.jpg)
 
