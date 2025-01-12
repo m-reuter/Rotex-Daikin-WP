@@ -34,16 +34,16 @@ bestimmt (Jahre 2018 - 2022), wobei auch hier die meisten für das ältere Model
 
 ### Inhalt
 
-- [Heizungssystem]({{ site.baseurl }}{% link heizung.md %})
+- [Heizungssystem]({% link heizung.md %})
   - Fußbodenheizung
   - Wärmepumpen
-- [Einstellungen der HPSU compact (ultra)]({{ site.baseurl }}{% link hpsu-compact.md %})
-- [Smart Home]({{ site.baseurl }}{% link smart-home.md %})
+- [Einstellungen der HPSU compact (ultra)]({% link hpsu-compact.md %})
+- [Smart Home]({% link smart-home.md %})
   - Anbindung und Automatisierung
   - Smart Grid und Photovoltaik (geplant)
 
 
-[Los geht's: Heizung]({{ site.baseurl }}{% link heizung.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Los geht's: Heizung]({% link heizung.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
 
