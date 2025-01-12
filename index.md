@@ -15,9 +15,6 @@ Leider sind sie das selten. Diese Seiten können dir helfen, das zu ändern.
  
 ---
 
-{: .note }
-test note
-
 ### Wärmepumpen
 
 Wärmepumpen (WP) und Fußbodenheizungen sind inzwischen Standard bei Neubauten und werden
