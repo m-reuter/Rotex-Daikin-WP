@@ -7,9 +7,6 @@ nav_order: 2
 
 ## Fußbodenheizung
 
-{: .note }
-Test
-
 ### Wahrnehmung
 
 Fußbodenheizungen können sehr effizient sein, sind aber sehr träge.
