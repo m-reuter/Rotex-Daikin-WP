@@ -60,7 +60,7 @@ der die Heizkurve komplett nach oben oder unten verschiebt. Ist es also sowohl i
 Übergangszeit als auch im Winter zu warm oder zu kalt, muss dieser Parameter entsprechend
 angepasst werden. Meist liegt der Wert so bei 20 - 22.
 
-![HPSU Compact Ultra Heizkurven](/assets/images/rotex-heizkurven.jpg)
+![HPSU Compact Ultra Heizkurven]({{ site.baseurl }}/assets/images/rotex-heizkurven.jpg)
 
 Die Heizkurve wird über den "Heizkurve" Parameter gewählt. Diese Einstellung liegt meist
 bei 0,5 oder 0,4 (empfohlen für KfW55) und beschreibt ungefähr die Steigung, mit der bei
@@ -405,7 +405,7 @@ einer [Smart-Home]({{ site.baseurl }}{% link smart-home.md %}) Anbindung realisi
 >
 > Ext. Raum-Thermostat oder Smart-Home Steuerung macht Sinn
 
-![HPSU Compact Ultra Board](/assets/images/ultra-board-ext.jpg)
+![HPSU Compact Ultra Board]({{ site.baseurl }}/assets/images/ultra-board-ext.jpg)
 
 ---
 
