@@ -15,6 +15,8 @@ Leider sind sie das selten. Diese Seiten können dir helfen, das zu ändern.
  
 ---
 
+{: .note }
+test note
 
 ### Wärmepumpen
 
