@@ -29,6 +29,7 @@ Hier, sowie für die Planung der Wärmepumpe ist professionelle Beratung nötig.
 
 ### Einzelraumregelung ERR
 
+
 **Dieser Punkt ist sehr wichtig für ein effizientes Heizen !!**
 
 Normalerweise werden für jeden Heizkreis automatische Regler auf die Ventile in den Verteilerschränken
@@ -128,4 +129,4 @@ bei über 5 liegen kann.
 
 ---
 
-[Weiter: Einstellungen HPSU compact]({{ site.baseurl }}{% link hpsu-compact.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Weiter: Einstellungen HPSU compact]({% link hpsu-compact.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
