@@ -30,9 +30,7 @@ stammen aus dem [HPSU compact ultra Forum](https://www.haustechnikdialog.de/Foru
 des Haustechnikdialogs. Ein Dank geht an die vielen Helfer dort!
 
 {: .note }
-Wichtig, diese Einstellungen beziehen sich auf die HPSU Compact Ultra in den 4kW, 6kW und
-8kW Größen (mit R32 eingeführter Steuerung). Viele Einstellungen sind aber vermutlich 
-auch bei anderen Modellen sinnvoll. 
+Wichtig, diese Einstellungen beziehen sich auf die HPSU Compact Ultra in den 4kW, 6kW und 8kW Größen (mit R32 eingeführter Steuerung). Viele Einstellungen sind aber vermutlich auch bei anderen Modellen sinnvoll. 
 
 
 ## Erweiterter Zugriff
@@ -300,6 +298,7 @@ an (ausser ggf. im Sommer bei über 35°C außen).
 Der Heizstab ist ein optionaler Zusatz und kann technisch komplett auskonfiguriert
 werden über:
 
+{: .highlight }
 „Einstellungen“ => „Ext. Quelle“ => „Konfig. externe Wärmequelle“
 
 Nur so kann die Nutzung des Heizstabes beim Abtauen (und im Sommer) vermieden werden.
