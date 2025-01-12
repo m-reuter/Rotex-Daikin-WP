@@ -7,6 +7,9 @@ nav_order: 2
 
 ## Fußbodenheizung
 
+{: .note }
+Test
+
 ### Wahrnehmung
 
 Fußbodenheizungen können sehr effizient sein, sind aber sehr träge.
@@ -14,7 +17,7 @@ Daher gelten hier ganz andere Bedingungen, als noch bei älteren Systemen.
 Die Einstellungen hängen natürlich auch von der Isolierung des Hauses ab. 
 Fest steht: bei modernen KfW55 Häusern - meist auch bei 
 ineffizienteren - wird man die Wärme des Fußbodens kaum spüren. Ein Boden, 
-der ca 24 Grad warm ist, wird nicht als warm wargenommem. Temperaturen dadrüber
+der ca. 24°C warm ist, wird nicht als warm wargenommem. Temperaturen dadrüber
 würden zur Überheizung des Hauses führen. Auch kann man nicht mehr einzelne Räume
 schön warm machen und andere kalt lassen. Wer es im Bad kurzfristig sehr warm
 haben möchte sollte dort eine elektrische Wandheizung ([siehe Badzusatzheizung (extern)](https://www.haustechnikdialog.de/SHKwissen/1102/Badzusatzheizung))
@@ -65,7 +68,7 @@ Andere Kreise werden dann runter geregelt, damit es dort nicht zu heiß wird.
 Dazu muss man den bzgl. Wärme anspruchsvollsten Raum über die Heizkurve auf Solltemperatur
 bringen. Wenn dann andere Räume zu warm werden, muss man über die statischen (!) Durchflussregler
 an den Heizkreisverteilern so weit drosseln, dass die Temperatur stimmt.
-Immer unter Beachtung von min. 720l/min an der Heizungszentrale (bei der Rotex HPSU).
+Immer unter Beachtung von min. 720 l/min an der Heizungszentrale (bei der Rotex HPSU).
 Details finden sich im Haustechnik Forum
 ([Thermischer Abgleich (extern)](https://www.haustechnikdialog.de/SHKwissen/2711/Thermischer-Abgleich)).
 
